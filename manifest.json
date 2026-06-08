@@ -2,31 +2,33 @@
   "appSlug": "web",
   "releases": [
     {
-      "version": "0.9.12",
+      "version": "0.9.13",
       "releasedAt": "2026-06-08T00:00:00.000Z",
+      "publisher": {
+        "name": "Sanders Bot"
+      },
+      "note": {
+        "body": {
+          "en": "Welcome to the new Changelog — every release is now published automatically from GitHub.",
+          "cs": "Vítejte v nové sekci Changelog — každé vydání se nyní publikuje automaticky z GitHubu."
+        },
+        "type": "info"
+      },
       "entries": [
         {
-          "slug": "changelog-delivery-pipeline",
+          "slug": "changelog-section-launch",
           "category": "feature",
           "title": {
-            "en": "Changelog delivery pipeline",
-            "cs": "Distribuční kanál changelogu"
+            "en": "Official launch of the Changelog section",
+            "cs": "Oficiální spuštění sekce Changelog"
           },
           "body": {
-            "en": "The release pipeline now publishes each version's changelog to the backend automatically.",
-            "cs": "Pipeline vydání nyní po každé verzi automaticky publikuje changelog do backendu."
-          }
-        },
-        {
-          "slug": "changelog-release-links",
-          "category": "improvement",
-          "title": {
-            "en": "Release links on changelog entries",
-            "cs": "Odkazy na vydání u položek changelogu"
+            "en": "A fully automated release pipeline with a window into GitHub. Entries now carry an author, notes, a publisher, and a general summary.",
+            "cs": "Plně automatizovaná release pipeline s náhledem do GitHubu. Položky nyní nesou\nautora, poznámky, vydavatele i obecný souhrn."
           },
-          "body": {
-            "en": "Each changelog entry now links directly to its corresponding GitHub Release, with the commit identifier shown as plain reference text.",
-            "cs": "Každá položka changelogu nyní odkazuje přímo na odpovídající vydání na GitHubu; identifikátor commitu se zobrazuje jako prostý text."
+          "author": {
+            "name": "David Sanders",
+            "profileUrl": "https://github.com/StarScreammZ"
           }
         }
       ]

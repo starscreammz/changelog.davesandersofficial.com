@@ -23,15 +23,13 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
-## [0.9.12] - 2026-06-08
+## [0.9.13] - 2026-06-08
+
+> ℹ️ **Note:** Welcome to the new Changelog — every release is now published automatically from GitHub.
 
 ### Added
 
-- **Changelog delivery pipeline** — The release pipeline now publishes each version's changelog to the backend automatically.
+- **Official launch of the Changelog section** — A fully automated release pipeline with a window into GitHub. Entries now carry an author, notes, a publisher, and a general summary.
 
-### Changed
-
-- **Release links on changelog entries** — Each changelog entry now links directly to its corresponding GitHub Release, with the commit identifier shown as plain reference text.
-
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.9.12...HEAD
-[0.9.12]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/releases/tag/v0.9.12
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.9.13...HEAD
+[0.9.13]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/releases/tag/v0.9.13
