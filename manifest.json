@@ -1,43 +1,4 @@
 {
   "appSlug": "web",
-  "releases": [
-    {
-      "version": "0.9.10",
-      "releasedAt": "2026-06-06T00:00:00.000Z",
-      "commitSha": "0121327",
-      "entries": [
-        {
-          "slug": "changelog-delivery-pipeline",
-          "category": "feature",
-          "title": {
-            "en": "Changelog delivery pipeline",
-            "cs": "Distribuční kanál changelogu"
-          },
-          "body": {
-            "en": "The release pipeline now publishes each version's changelog to the backend automatically.",
-            "cs": "Pipeline vydání nyní po každé verzi automaticky publikuje changelog do backendu."
-          }
-        }
-      ]
-    },
-    {
-      "version": "0.9.11",
-      "releasedAt": "2026-06-08T00:00:00.000Z",
-      "commitSha": "a3b067c",
-      "entries": [
-        {
-          "slug": "changelog-release-links",
-          "category": "improvement",
-          "title": {
-            "en": "Release links on changelog entries",
-            "cs": "Odkazy na vydání u položek changelogu"
-          },
-          "body": {
-            "en": "Each changelog entry now links directly to its corresponding GitHub Release, with the commit identifier shown as plain reference text.",
-            "cs": "Každá položka changelogu nyní odkazuje přímo na odpovídající vydání na GitHubu; identifikátor commitu se zobrazuje jako prostý text."
-          }
-        }
-      ]
-    }
-  ]
+  "releases": []
 }
