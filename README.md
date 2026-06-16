@@ -25,6 +25,7 @@ This repository is the **public source of record** for the changelogs of the Dav
 
 The polished, multilingual, browsable view lives on the website &mdash; **[davesandersofficial.com/changelog](https://davesandersofficial.com/changelog)**.
 
+
 ## Apps
 
 | App | Location | Manifest | Release tags |
@@ -32,6 +33,7 @@ The polished, multilingual, browsable view lives on the website &mdash; **[daves
 | Web Application | Repository root | [`manifest.json`](manifest.json) | `vX.Y.Z` |
 | API | [`api/`](api) | [`api/manifest.json`](api/manifest.json) | `api-vX.Y.Z` |
 | Mobile App | Planned | Planned | `app-vX.Y.Z` |
+
 
 ## `manifest.json`
 
