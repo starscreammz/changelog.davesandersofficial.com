@@ -1,15 +1,13 @@
 <div align="center">
 
-# David Sanders · Changelog
+# Dave Sanders Official · Changelog
 
-**Public release history for the [davesandersofficial.com](https://davesandersofficial.com) web application and API.**
+**Public release history for the Web application and API interface.**
 
 [![Live changelog](https://img.shields.io/badge/Live-changelog-00b8d9?style=flat-square)](https://davesandersofficial.com/changelog)
 [![Keep a Changelog](https://img.shields.io/badge/Keep%20a%20Changelog-1.1.0-00b8d9?style=flat-square)](https://keepachangelog.com/en/1.1.0/)
 [![Semantic Versioning](https://img.shields.io/badge/SemVer-2.0.0-00b8d9?style=flat-square)](https://semver.org/spec/v2.0.0.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00b8d9?style=flat-square)](LICENSE)
-
-[**Browse the live changelog &rarr;**](https://davesandersofficial.com/changelog)
 
 </div>
 
