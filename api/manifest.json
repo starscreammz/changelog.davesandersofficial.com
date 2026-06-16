@@ -1,0 +1,34 @@
+{
+  "appSlug": "api",
+  "releases": [
+    {
+      "version": "1.0.0",
+      "releasedAt": "2026-06-16T00:00:00.000Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "initial-release",
+          "category": "feature",
+          "title": {
+            "en": "API added to changelog",
+            "cs": "Přidání API do changelogu"
+          },
+          "body": {
+            "en": "The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.",
+            "cs": "První a stabilní vydání oficiálního API, které slouží jako srdce celé infrastruktury, je nyní součástí changelogu."
+          },
+          "commit": "3f7eda67d1d9a940598fed353cb2c535fbe03c63",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
+    }
+  ]
+}
