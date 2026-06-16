@@ -29,8 +29,9 @@ The polished, multilingual, browsable view lives on the website &mdash; **[daves
 
 | App | Location | Manifest | Release tags |
 | --- | --- | --- | --- |
-| Web application | repository root | [`manifest.json`](manifest.json) | `vX.Y.Z` |
+| Web Application | Repository root | [`manifest.json`](manifest.json) | `vX.Y.Z` |
 | API | [`api/`](api) | [`api/manifest.json`](api/manifest.json) | `api-vX.Y.Z` |
+| Mobile App | Planned | Planned | `app-vX.Y.Z` |
 
 ## `manifest.json`
 
