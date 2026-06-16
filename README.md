@@ -2,7 +2,7 @@
 
 # David Sanders · Changelog
 
-**Public release history for the [davesandersofficial.com](https://davesandersofficial.com) web application.**
+**Public release history for the [davesandersofficial.com](https://davesandersofficial.com) web application and API.**
 
 [![Live changelog](https://img.shields.io/badge/Live-changelog-00b8d9?style=flat-square)](https://davesandersofficial.com/changelog)
 [![Keep a Changelog](https://img.shields.io/badge/Keep%20a%20Changelog-1.1.0-00b8d9?style=flat-square)](https://keepachangelog.com/en/1.1.0/)
@@ -17,19 +17,26 @@
 
 ## Overview
 
-This repository is the **public source of record** for the changelog of the David Sanders web application. Every release shipped to [davesandersofficial.com](https://davesandersofficial.com) is mirrored here in three forms:
+This repository is the **public source of record** for the changelogs of the David Sanders **web application** and **API**. Each app keeps its own release history &mdash; the **web** app at the repository root and the **API** under [`api/`](api) &mdash; and every release is mirrored here in three forms:
 
 | Artifact | Audience | Purpose |
 | --- | --- | --- |
-| [`CHANGELOG.md`](CHANGELOG.md) | People | Human-readable history, grouped by version. |
-| [`manifest.json`](manifest.json) | Machines | Structured, localized release data. |
-| [Releases](../../releases) | Both | A tagged GitHub Release (`vX.Y.Z`) per version. |
+| `CHANGELOG.md` | People | Human-readable history, grouped by version. |
+| `manifest.json` | Machines | Structured, localized release data. |
+| [Releases](../../releases) | Both | A tagged GitHub Release per version &mdash; `vX.Y.Z` (web) and `api-vX.Y.Z` (API). |
 
 The polished, multilingual, browsable view lives on the website &mdash; **[davesandersofficial.com/changelog](https://davesandersofficial.com/changelog)**.
 
+## Apps
+
+| App | Location | Manifest | Release tags |
+| --- | --- | --- | --- |
+| Web application | repository root | [`manifest.json`](manifest.json) | `vX.Y.Z` |
+| API | [`api/`](api) | [`api/manifest.json`](api/manifest.json) | `api-vX.Y.Z` |
+
 ## `manifest.json`
 
-A single machine-readable document describing every published release. It is the canonical feed the website reconciles against.
+A single machine-readable document describing every published release &mdash; the canonical feed the website reconciles against. Each app has its own: [`manifest.json`](manifest.json) for the web app, [`api/manifest.json`](api/manifest.json) for the API.
 
 ```json
 {
@@ -54,7 +61,7 @@ A single machine-readable document describing every published release. It is the
 
 | Field | Description |
 | --- | --- |
-| `appSlug` | Product identifier &mdash; `web` for this repository. |
+| `appSlug` | Product identifier &mdash; `web` (repository root) or `api` ([`api/`](api)). |
 | `releases[]` | Every published release. |
 | `releases[].version` | Semantic version, no leading `v`. |
 | `releases[].releasedAt` | ISO&#8209;8601 UTC timestamp. |
@@ -76,10 +83,10 @@ Entries are grouped under the [Keep a Changelog](https://keepachangelog.com/en/1
 
 ## How it's maintained
 
-This repository is **updated automatically** by the web application's release pipeline. On every release it mirrors `CHANGELOG.md` + `manifest.json`, publishes a GitHub Release, and notifies the site.
+This repository is **updated automatically** by each application's release pipeline (the web app and the API). On every release it mirrors that app's `CHANGELOG.md` + `manifest.json`, publishes a GitHub Release, and notifies the site.
 
 > [!NOTE]
-> The files here are generated. Manual edits to `CHANGELOG.md` or `manifest.json` are overwritten on the next release &mdash; changes are authored upstream in the application repository.
+> The files here are generated. Manual edits to `CHANGELOG.md` or `manifest.json` are overwritten on the next release &mdash; changes are authored upstream in the application repositories.
 
 ## License
 
