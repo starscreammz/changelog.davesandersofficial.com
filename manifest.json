@@ -3,7 +3,7 @@
   "releases": [
     {
       "version": "0.9.13",
-      "releasedAt": "2026-06-08T18:31:14.000Z",
+      "releasedAt": "2026-06-08T00:00:00.000Z",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -34,6 +34,168 @@
             "profileUrl": "https://github.com/StarScreammZ"
           },
           "commit": "2c4d41025b11a938296093378bbc29d460a79934"
+        }
+      ]
+    },
+    {
+      "version": "0.9.14",
+      "releasedAt": "2026-06-19T13:22:05.192Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "note": {
+        "body": {
+          "en": "A big rolling update: friendly \"Coming soon\" sections, time-display preferences, a redesigned changelog, a clearer status page, a refreshed look, and security hardening.",
+          "cs": "Velká průběžná aktualizace: nové stránky „Již brzy\", volba zobrazení času, přepracovaný seznam změn, přehlednější stav služeb, osvěžený vzhled a vylepšení zabezpečení."
+        },
+        "type": "info"
+      },
+      "entries": [
+        {
+          "slug": "account-security-hardening",
+          "category": "security",
+          "title": {
+            "en": "Stronger sign-in and session security",
+            "cs": "Silnější zabezpečení přihlášení a relací"
+          },
+          "body": {
+            "en": "Authentication system hardening with automatic session control and strict login policy. Added MFA support and authentication with social networks.",
+            "cs": "Vylepšení systému autentifikace s automatickou kontrolou uživatelské relace a přísnější bezpečnostní politika. Přidána podpora pro MFA a přihlašování pomocí sociálních sítí."
+          },
+          "commit": "44037036afe476f483304e92e35a8c05725ef741",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "changelog-redesign",
+          "category": "improvement",
+          "title": {
+            "en": "A richer changelog",
+            "cs": "Bohatší seznam změn"
+          },
+          "body": {
+            "en": "Release cards now show contributors with avatars, collapsible summaries, links to the source signature of the specific commit and smoother animations.",
+            "cs": "Karty jednotlivých verzí nyní zobrazují přispěvatele s avatary, rozbalovací souhrny, odkazy na zdrojový podpis commitu a plynulejší animace."
+          },
+          "commit": "44037036afe476f483304e92e35a8c05725ef741",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "design-refresh",
+          "category": "improvement",
+          "title": {
+            "en": "A refreshed look across the site",
+            "cs": "Osvěžený vzhled celého webu"
+          },
+          "body": {
+            "en": "A site-wide visual polish brings a new teal gradient to the navigation bar and other sections. Refined dropdown menus, smoother hover effects, and small layout cleanups throughout.",
+            "cs": "Celostránkové vizuální vyladění přináší nový tyrkysový přechod v navigačním panelu a dalších sekcích. Vylepšené rozbalovací nabídky, plynulejší efekty při najetí myší a drobné úpravy rozvržení."
+          },
+          "commit": "44037036afe476f483304e92e35a8c05725ef741",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "display-polish-fixes",
+          "category": "fix",
+          "title": {
+            "en": "Assorted display fixes",
+            "cs": "Různé opravy zobrazení"
+          },
+          "body": {
+            "en": "Small fixes including a centered status indicator in the footer on iOS, better responsive labels on the status page, and a more accurate Czech translation for the \"down\" status.",
+            "cs": "Drobné opravy: vystředění indikátoru stavu v patičce na iOS, lepší přizpůsobení popisků na stránce stavu malým obrazovkám a přesnější český překlad stavu „Výpadek\"."
+          },
+          "commit": "44037036afe476f483304e92e35a8c05725ef741",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "form-submit-fix",
+          "category": "fix",
+          "title": {
+            "en": "Fixed forms that could fail to submit",
+            "cs": "Opraveny formuláře, které se nemusely odeslat"
+          },
+          "body": {
+            "en": "Resolved an issue where some form submissions could result in failed action before they were processed.",
+            "cs": "Vyřešen problém, kvůli kterému při odesílání formulářů mohlo dojít k nezdařené akci ještě před samotným zpracováním."
+          },
+          "commit": "44037036afe476f483304e92e35a8c05725ef741",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "page-state-system",
+          "category": "feature",
+          "title": {
+            "en": "Friendly pages for sections that aren't live yet",
+            "cs": "Přívětivé stránky pro sekce, které ještě nejsou spuštěné"
+          },
+          "body": {
+            "en": "Pages with status now follow a global site routing convention with its dedicated landing page.",
+            "cs": "Stránky s aktivním statusem se nyní řídí dle globální navigační konvence webu. Každý status má svou vlastní stránku s popisem stavu."
+          },
+          "commit": "44037036afe476f483304e92e35a8c05725ef741",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "status-page-upgrades",
+          "category": "improvement",
+          "title": {
+            "en": "A clearer service-status page",
+            "cs": "Přehlednější stránka stavu služeb"
+          },
+          "body": {
+            "en": "The status page now shows a per-service icon and real service name, an at-a-glance count of monitored services, an \"Online\" label on each, and clearer handling of services that are newly added and have no data.",
+            "cs": "Stavová stránka nyní u každé služby zobrazuje vlastní ikonu a skutečný název. Dále také přehledný počet sledovaných služeb, štítek „Online\" a srozumitelnější zobrazení nově přidaných služeb, které zatím nemají data."
+          },
+          "commit": "44037036afe476f483304e92e35a8c05725ef741",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "time-display-preferences",
+          "category": "feature",
+          "title": {
+            "en": "Choose how dates and times are shown",
+            "cs": "Zvolte si, jak se zobrazují datum a čas"
+          },
+          "body": {
+            "en": "A new setting lets you pick your time zone and switch between 12/24-hour clocks. Automated selection based on browser has been added as well.",
+            "cs": "Nové nastavení umožňuje vybrat časové pásmo a přepínat mezi 12/24hodinovým formátem. Podpora pro automatickou volbu na základě nastavení prohlížeče je rovněž přidána."
+          },
+          "commit": "44037036afe476f483304e92e35a8c05725ef741",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
         }
       ]
     }
