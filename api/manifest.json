@@ -3,7 +3,7 @@
   "releases": [
     {
       "version": "1.0.0",
-      "releasedAt": "2026-06-16T10:53:53.000Z",
+      "releasedAt": "2026-06-16T00:00:00.000Z",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -22,6 +22,143 @@
             "cs": "První a stabilní vydání oficiálního API, které slouží jako srdce celé infrastruktury, je nyní součástí changelogu."
           },
           "commit": "3f7eda67d1d9a940598fed353cb2c535fbe03c63",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "releasedAt": "2026-06-22T18:01:51.694Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "account-emails",
+          "category": "feature",
+          "title": {
+            "en": "Reliable account emails",
+            "cs": "Spolehlivé e-maily k účtu"
+          },
+          "body": {
+            "en": "Account emails — address confirmation, two-factor codes, and password-reset messages — are now delivered reliably, with automatic handling of bounced or rejected addresses.",
+            "cs": "E-maily k účtu — potvrzení adresy, kódy dvoufázového ověření a zprávy pro obnovení hesla — se nyní doručují spolehlivě, včetně automatického zpracování nedoručitelných nebo odmítnutých adres."
+          },
+          "commit": "81038f916edfd4754f91b8f89a77b9209efb9637",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "auth-error-codes",
+          "category": "improvement",
+          "title": {
+            "en": "Clearer authentication responses",
+            "cs": "Přehlednější odpovědi při ověřování"
+          },
+          "body": {
+            "en": "Authentication responses now use a consistent set of machine-readable codes, so apps can present clearer, more specific messages.",
+            "cs": "Odpovědi při ověřování nyní používají jednotnou sadu strojově čitelných kódů, které aplikace dokáží spolehlivě a přesně zobrazit."
+          },
+          "commit": "81038f916edfd4754f91b8f89a77b9209efb9637",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "openapi-build-metadata",
+          "category": "improvement",
+          "title": {
+            "en": "Build metadata in the API documentation",
+            "cs": "Metadata sestavení v dokumentaci API"
+          },
+          "body": {
+            "en": "The API's OpenAPI document now reports the release version and build date.",
+            "cs": "Dokumentace OpenAPI nyní uvádí verzi vydání a datum sestavení API."
+          },
+          "commit": "579a60c6338a1169a21db7bf3919c322ad9062b2",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "password-reset",
+          "category": "feature",
+          "title": {
+            "en": "Self-service password reset",
+            "cs": "Obnovení hesla svépomocí"
+          },
+          "body": {
+            "en": "You can now reset a forgotten password from the sign-in screen through a secure email link. Accounts with two-factor authentication are asked to confirm their second factor during the reset.",
+            "cs": "Zapomenuté heslo si nyní můžete obnovit přímo z přihlašovací obrazovky mimo uživatelskou sekci. U účtů s dvoufázovým ověřením je při obnově vyžadováno potvrzení druhého faktoru."
+          },
+          "commit": "81038f916edfd4754f91b8f89a77b9209efb9637",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "session-hardening",
+          "category": "security",
+          "title": {
+            "en": "Hardened session handling",
+            "cs": "Posílená správa relací"
+          },
+          "body": {
+            "en": "Signed-in sessions are more secure: refresh tokens now rotate automatically, with detection of reused tokens.",
+            "cs": "Přihlášené relace jsou bezpečnější: obnovovací tokeny podléhají automatické rotaci a pokusy o opětovné použití jsou automaticky zneplatněny."
+          },
+          "commit": "81038f916edfd4754f91b8f89a77b9209efb9637",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "signin-protection",
+          "category": "security",
+          "title": {
+            "en": "Stronger sign-in protection",
+            "cs": "Silnější ochrana přihlášení"
+          },
+          "body": {
+            "en": "Sign-in and account-recovery flows are now protected against automated abuse, and accounts are temporarily locked after repeated failed sign-in attempts.",
+            "cs": "Přihlašování a obnovení účtu jsou nyní chráněny proti automatizovanému zneužití a účty se po opakovaných neúspěšných pokusech o přihlášení dočasně uzamknou."
+          },
+          "commit": "81038f916edfd4754f91b8f89a77b9209efb9637",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "two-factor-authentication",
+          "category": "feature",
+          "title": {
+            "en": "Two-factor authentication",
+            "cs": "Dvoufázové ověření"
+          },
+          "body": {
+            "en": "Added optional two-factor authentication using an authenticator app, with single-use recovery codes for backup access.",
+            "cs": "Přidáno dvoufázové ověření pomocí autentizační aplikace, včetně jednorázových záložních kódů pro obnovení přístupu."
+          },
+          "commit": "81038f916edfd4754f91b8f89a77b9209efb9637",
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
