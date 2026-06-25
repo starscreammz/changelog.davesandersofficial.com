@@ -166,6 +166,143 @@
           }
         }
       ]
+    },
+    {
+      "version": "1.2.0",
+      "releasedAt": "2026-06-25T21:09:55.880Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "confirm-email-returns-address",
+          "category": "improvement",
+          "title": {
+            "en": "Email confirmation returns the confirmed address",
+            "cs": "Potvrzení e-mailu vrací potvrzenou adresu"
+          },
+          "body": {
+            "en": "Verified email address action now returns the same address in the success response, making it easier for the user to check.",
+            "cs": "Verifikace e-mailové adresy nyní vrací stejnou adresu v odpovědi o úspěchu pro snadnější kontrolu pro uživatele."
+          },
+          "commit": "56b4e8c5cd12aca65cb1a000bc3463794db6059c",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "name-apostrophe-charset",
+          "category": "fix",
+          "title": {
+            "en": "Better name handling",
+            "cs": "Lepší zpracování jmen"
+          },
+          "body": {
+            "en": "Names now accept curly/iOS apostrophes, nicknames are canonicalized consistently, and the configured name character set is enforced on registration.",
+            "cs": "Jména nyní akceptují typografické (iOS) apostrofy, přezdívky se jednotně normalizují a při registraci se vynucuje nastavená znaková sada pro jména."
+          },
+          "commit": "56b4e8c5cd12aca65cb1a000bc3463794db6059c",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "openapi-validation-400",
+          "category": "fix",
+          "title": {
+            "en": "Accurate validation error codes in API docs",
+            "cs": "Přesné chybové kódy validace v dokumentaci API"
+          },
+          "body": {
+            "en": "The API documentation now describes validation error codes as HTTP 400 instead of 422.",
+            "cs": "Dokumentace API nyní popisuje chybové kódy validace jako HTTP 400 namísto 422."
+          },
+          "commit": "56b4e8c5cd12aca65cb1a000bc3463794db6059c",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "public-config-endpoint",
+          "category": "feature",
+          "title": {
+            "en": "Public site configuration",
+            "cs": "Veřejná konfigurace webu"
+          },
+          "body": {
+            "en": "Apps can now fetch feature flags and the announcement banner anonymously and cache the result.",
+            "cs": "Aplikace nyní mohou anonymně načítat příznaky funkcí a oznamovací banner a výsledek ukládat do mezipaměti."
+          },
+          "commit": "56b4e8c5cd12aca65cb1a000bc3463794db6059c",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "published-form-rules",
+          "category": "feature",
+          "title": {
+            "en": "Policy and form rules",
+            "cs": "Politika a pravidla formulářů"
+          },
+          "body": {
+            "en": "Sections with forms can now read the current validation requirements and also verify the form before it's submitted.",
+            "cs": "Sekce s formuláři si nyní aktivně načítají aktuální požadavky na validaci a ověří si formulář ještě před odesláním."
+          },
+          "commit": "56b4e8c5cd12aca65cb1a000bc3463794db6059c",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "reset-2fa-lockout-code",
+          "category": "improvement",
+          "title": {
+            "en": "Consistent lockout signal during password reset",
+            "cs": "Jednotné hlášení uzamčení při obnově hesla"
+          },
+          "body": {
+            "en": "The two-factor step during password reset now reports a locked account using the same machine-readable code as sign-in.",
+            "cs": "Krok dvoufaktorového ověření při obnově hesla nyní hlásí uzamčení účtu stejným strojově čitelným kódem jako přihlášení."
+          },
+          "commit": "56b4e8c5cd12aca65cb1a000bc3463794db6059c",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "structured-validation-errors",
+          "category": "improvement",
+          "title": {
+            "en": "Clearer form errors",
+            "cs": "Přehlednější chyby formulářů"
+          },
+          "body": {
+            "en": "Registration now returns structured, de-duplicated field-level error codes, so validation can pinpoint the exact field.",
+            "cs": "Registrace nyní vrací strukturované chybové kódy na úrovni jednotlivých polí (bez duplicit). Validace proto může individuální pole přesně označit."
+          },
+          "commit": "56b4e8c5cd12aca65cb1a000bc3463794db6059c",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }
