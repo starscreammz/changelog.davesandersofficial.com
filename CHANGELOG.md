@@ -23,6 +23,19 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [0.10.0] - 2026-06-26
+
+> ℹ️ **Note:** Self-service password reset arrives + a polish pass across the authentication flow.
+
+### Added
+
+- **Self-service password reset** — You can now request a secure reset link by email, then choose a new password. Also, a new two-factor step for accounts that have 2FA enabled.
+
+### Changed
+
+- **Clearer email resend with a countdown** — Resending a password-reset or account-activation email now confirms it was sent and shows a live countdown before you can request another.
+- **Refined and consistent auth screens** — A new consistent layout for the whole authentication flow is now live in production.
+
 ## [0.9.14] - 2026-06-19
 
 > ℹ️ **Note:** A big rolling update: friendly "Coming soon" sections, time-display preferences, a redesigned changelog, a clearer status page, a refreshed look, and security hardening.
@@ -55,6 +68,7 @@ _Nothing yet._
 
 - **Official launch of the Changelog section** — A fully automated release pipeline with a window into GitHub. Entries now carry an author, notes, a publisher, and a general summary.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.9.14...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.0...HEAD
+[0.10.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.9.14...v0.10.0
 [0.9.14]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.9.13...v0.9.14
 [0.9.13]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/releases/tag/v0.9.13

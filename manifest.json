@@ -198,6 +198,78 @@
           }
         }
       ]
+    },
+    {
+      "version": "0.10.0",
+      "releasedAt": "2026-06-26T17:04:16.223Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "note": {
+        "body": {
+          "en": "Self-service password reset arrives + a polish pass across the authentication flow.",
+          "cs": "Nově k dispozici samoobslužné obnovení hesla + série vylepšení procesu přihlašování."
+        },
+        "type": "info"
+      },
+      "entries": [
+        {
+          "slug": "auth-resend-clarity",
+          "category": "improvement",
+          "title": {
+            "en": "Clearer email resend with a countdown",
+            "cs": "Přehlednější opětovné odeslání e-mailu s odpočtem"
+          },
+          "body": {
+            "en": "Resending a password-reset or account-activation email now confirms it was sent and shows a live countdown before you can request another.",
+            "cs": "Opětovné odeslání e-mailu pro obnovení hesla nebo aktivaci účtu nyní potvrdí odeslání a zobrazí aktivní odpočet, než bude možno vyžádat nový."
+          },
+          "commit": "5f3df3be6121799c3113cada0d493be6eec857b8",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "auth-screen-consistency",
+          "category": "improvement",
+          "title": {
+            "en": "Refined and consistent auth screens",
+            "cs": "Sjednocené a vyladěné přihlašovací obrazovky"
+          },
+          "body": {
+            "en": "A new consistent layout for the whole authentication flow is now live in production.",
+            "cs": "Jednotný layout pro celý proces přihlašování je nyní součástí aplikace."
+          },
+          "commit": "5f3df3be6121799c3113cada0d493be6eec857b8",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "password-reset-flow",
+          "category": "feature",
+          "title": {
+            "en": "Self-service password reset",
+            "cs": "Samoobslužné obnovení hesla"
+          },
+          "body": {
+            "en": "You can now request a secure reset link by email, then choose a new password. Also, a new two-factor step for accounts that have 2FA enabled.",
+            "cs": "Vyžádejte si bezpečný odkaz e-mailem a poté si zvolte nové heslo. U účtů s dvoufázovým ověřením přibude i ověřovací krok."
+          },
+          "commit": "5f3df3be6121799c3113cada0d493be6eec857b8",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }
