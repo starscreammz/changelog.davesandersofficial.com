@@ -270,6 +270,61 @@
           }
         }
       ]
+    },
+    {
+      "version": "0.10.1",
+      "releasedAt": "2026-07-04T23:23:04.057Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "status-proxy-icon-and-qualifiers",
+          "category": "feature",
+          "title": {
+            "en": "Clearer status page — proxy icon and localized monitor labels",
+            "cs": "Přehlednější stránka stavu — ikona proxy a lokalizované popisky monitorů"
+          },
+          "body": {
+            "en": "Added a dedicated proxy glyph and localized monitor-name qualifiers (Primary / Secondary / Tertiary / Reverse) on the status page, so duplicate services like two firewalls read distinctly.",
+            "cs": "Přidána vyhrazená ikona pro proxy a překlad rozlišovacích slov v názvech monitorů\n(Primární / Sekundární / Terciární / Reverzní), takže lze snadno odlišit například dva\nfirewally od sebe."
+          },
+          "links": [
+            {
+              "label": {
+                "en": "PR #72"
+              },
+              "url": "https://github.com/StarScreammZ/davesandersofficial.com/pull/72"
+            }
+          ],
+          "commit": "5b29a709e84b8aa58d386127b00c90f97d06e784",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "turnstile-resilient-minting",
+          "category": "fix",
+          "title": {
+            "en": "Human-verification no longer needs a page refresh",
+            "cs": "Ověření člověka už nevyžaduje obnovení stránky"
+          },
+          "body": {
+            "en": "The Cloudflare Turnstile verification widget now automatically retries when it fails to mint a token (for example after the page has been idle), so forms recover on their own without a manual refresh.",
+            "cs": "Ověřovací widget (Cloudflare Turnstile) se nyní po selhání sám zopakuje, takže formuláře\nse zotaví bez ručního obnovení stránky — například poté, co stránka delší dobu nečinně\nčekala."
+          },
+          "commit": "5b29a709e84b8aa58d386127b00c90f97d06e784",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }

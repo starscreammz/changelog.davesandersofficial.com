@@ -23,6 +23,16 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [0.10.1] - 2026-07-04
+
+### Added
+
+- **Clearer status page — proxy icon and localized monitor labels** — Added a dedicated proxy glyph and localized monitor-name qualifiers (Primary / Secondary / Tertiary / Reverse) on the status page, so duplicate services like two firewalls read distinctly. ([PR #72](https://github.com/StarScreammZ/davesandersofficial.com/pull/72))
+
+### Fixed
+
+- **Human-verification no longer needs a page refresh** — The Cloudflare Turnstile verification widget now automatically retries when it fails to mint a token (for example after the page has been idle), so forms recover on their own without a manual refresh.
+
 ## [0.10.0] - 2026-06-26
 
 > ℹ️ **Note:** Self-service password reset arrives + a polish pass across the authentication flow.
@@ -68,7 +78,8 @@ _Nothing yet._
 
 - **Official launch of the Changelog section** — A fully automated release pipeline with a window into GitHub. Entries now carry an author, notes, a publisher, and a general summary.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.1...HEAD
+[0.10.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.0...v0.10.1
 [0.10.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.9.14...v0.10.0
 [0.9.14]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.9.13...v0.9.14
 [0.9.13]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/releases/tag/v0.9.13
