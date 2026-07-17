@@ -23,6 +23,18 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.3.0] - 2026-07-17
+
+### Added
+
+- **Administrative API configuration** — A new administrative interface to read and edit configuration entries; every change is audited and immediately invalidates the client cache.
+- **Scoped collaborator access to password management** — Invited collaborators can now be granted access limited strictly to managing their own project's passwords. Full management access requires per-request approval and is always audited.
+- **Contact form policy and validation** — The site's central configuration now drives the contact form and strictly enforces its validation rules.
+
+### Changed
+
+- **Faster site-config revalidation** — The configuration endpoint now returns a strong ETag and honours If-None-Match, so clients refresh from their local cache instead of re-downloading the configuration.
+
 ## [1.2.0] - 2026-06-25
 
 ### Added
@@ -65,7 +77,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/releases/tag/v1.0.0

@@ -303,6 +303,89 @@
           }
         }
       ]
+    },
+    {
+      "version": "1.3.0",
+      "releasedAt": "2026-07-17T18:16:40.038Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "admin-config-api",
+          "category": "feature",
+          "title": {
+            "en": "Administrative API configuration",
+            "cs": "Administrativní API konfigurace"
+          },
+          "body": {
+            "en": "A new administrative interface to read and edit configuration entries; every change is audited and immediately invalidates the client cache.",
+            "cs": "Nové administrativní rozhraní pro čtení a úpravu konfigurace. Každá změna podléhá auditu a s okamžitou platností vynutí obnovení cache klienta."
+          },
+          "commit": "8cfc29da8a0e8a251d55e306525bbb60f4380451",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "collaborator-password-access",
+          "category": "feature",
+          "title": {
+            "en": "Scoped collaborator access to password management",
+            "cs": "Vymezený přístup spolupracovníků ke správě hesel"
+          },
+          "body": {
+            "en": "Invited collaborators can now be granted access limited strictly to managing their own project's passwords. Full management access requires per-request approval and is always audited.",
+            "cs": "Přizvaní spolupracovníci mohou nyní získat přístup omezený výhradně na správu hesel ke svému vlastnímu projektu. Plný přístup ke správě podléhá schvalování individuálního požadavku a je vždy součástí auditu."
+          },
+          "commit": "8cfc29da8a0e8a251d55e306525bbb60f4380451",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "config-conditional-get",
+          "category": "improvement",
+          "title": {
+            "en": "Faster site-config revalidation",
+            "cs": "Rychlejší obnovování konfigurace webu"
+          },
+          "body": {
+            "en": "The configuration endpoint now returns a strong ETag and honours If-None-Match, so clients refresh from their local cache instead of re-downloading the configuration.",
+            "cs": "Konfigurační endpoint nyní vrací autoritativní ETag a respektuje If-None-Match, umožňující obnovení lokální cache namísto opětovného stažení."
+          },
+          "commit": "8cfc29da8a0e8a251d55e306525bbb60f4380451",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "contact-form-config",
+          "category": "feature",
+          "title": {
+            "en": "Contact form policy and validation",
+            "cs": "Politika a validace pro kontaktní formulář"
+          },
+          "body": {
+            "en": "The site's central configuration now drives the contact form and strictly enforces its validation rules.",
+            "cs": "Centrální konfigurace webu je nyní součástí kontaktního formuláře a striktně vynutí pravidla pro validační logiku."
+          },
+          "commit": "8cfc29da8a0e8a251d55e306525bbb60f4380451",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }
