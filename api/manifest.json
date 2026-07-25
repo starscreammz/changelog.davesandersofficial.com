@@ -386,6 +386,35 @@
           }
         }
       ]
+    },
+    {
+      "version": "1.3.1",
+      "releasedAt": "2026-07-25T16:32:30.982Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "permission-catalog-authorization",
+          "category": "security",
+          "title": {
+            "en": "Administration is now driven by full classification of user roles & permissions",
+            "cs": "Administrace nyní podléhá plné klasifikaci oprávnění & rolí uživatelů"
+          },
+          "body": {
+            "en": "Every administrative section of the API is now protected by a role classifier and by verification of the user's individual permissions. Permissions are now also enforced on the web application's end. An invalid role ordinal is rejected and the request is refused at the API level.",
+            "cs": "Každá administrativní sekce API je nyní chráněna klasifikátorem rolí a verifikací jednotlivých oprávnění uživatele. Oprávnění jsou nově vynucována i na straně webové aplikace. Neplatná hodnota role je zamítnuta a požadavek je zamítnut přímo na úrovni API."
+          },
+          "commit": "eacde35c0e0e7b8f4e61515ded7a249f988aa4e4",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }

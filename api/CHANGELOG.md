@@ -23,6 +23,12 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.3.1] - 2026-07-25
+
+### Security
+
+- **Administration is now driven by full classification of user roles & permissions** — Every administrative section of the API is now protected by a role classifier and by verification of the user's individual permissions. Permissions are now also enforced on the web application's end. An invalid role ordinal is rejected and the request is refused at the API level.
+
 ## [1.3.0] - 2026-07-17
 
 ### Added
@@ -77,7 +83,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.1...HEAD
+[1.3.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.0.0...v1.1.0
