@@ -415,6 +415,95 @@
           }
         }
       ]
+    },
+    {
+      "version": "1.4.0",
+      "releasedAt": "2026-07-27T14:54:23.116Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "dynamic-rbac-role-management",
+          "category": "feature",
+          "title": {
+            "en": "Custom roles and permission-based access control",
+            "cs": "Vlastní role a řízení přístupu dle oprávnění"
+          },
+          "body": {
+            "en": "The API now supports custom roles — each can be named, granted a specific set of permissions, and given its own members. Access to every protected part of the API is now fully driven by a permission engine and a security classifier. Role changes require an MFA confirmation and are written to an audit record.",
+            "cs": "API nově plnohodnotně podporuje přizpůsobení rolí – každou lze pojmenovat, přiřadit jí konkrétní oprávnění a spravovat členy. Přístup ke všem chráněným částem API je nyní řízen enginem pro oprávnění a bezpečnostním klasifikátorem. Změny rolí vyžadují MFA potvrzení a podléhají záznamu do auditu."
+          },
+          "links": [
+            {
+              "label": {
+                "en": "PR #100"
+              },
+              "url": "https://github.com/StarScreammZ/api.davesandersofficial.com/pull/100"
+            }
+          ],
+          "commit": "cf417f4d75ff8d2a816aa7c15c8722453906fbaa",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "immediate-role-revocation",
+          "category": "security",
+          "title": {
+            "en": "Role changes now take effect immediately",
+            "cs": "Změny rolí se nyní projeví okamžitě"
+          },
+          "body": {
+            "en": "When a user's role changes, their existing sessions lose the old level of access straight away and the old cache is immediately invalidated at the infrastructure level.",
+            "cs": "Když se uživateli změní role, jeho stávající relace je okamžitě zneplatněna a původní úroveň oprávnění je odebrána na úrovni celé infrastruktury."
+          },
+          "links": [
+            {
+              "label": {
+                "en": "PR #100"
+              },
+              "url": "https://github.com/StarScreammZ/api.davesandersofficial.com/pull/100"
+            }
+          ],
+          "commit": "cf417f4d75ff8d2a816aa7c15c8722453906fbaa",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "secrets-tier-numeric",
+          "category": "breaking",
+          "title": {
+            "en": "Tier level is now categorized by ordinals",
+            "cs": "Úroveň přístupu je nově kategorizována číslem"
+          },
+          "body": {
+            "en": "Endpoints for access management now emit access role ordinals. Clients consuming the field will require a configuration update.",
+            "cs": "Endpointy pro správu přístupu nyní vrací úroveň přístupu dané role. Klienti, kteří toto pole konzumují, budou vyžadovat úpravu konfigurace."
+          },
+          "links": [
+            {
+              "label": {
+                "en": "PR #100"
+              },
+              "url": "https://github.com/StarScreammZ/api.davesandersofficial.com/pull/100"
+            }
+          ],
+          "commit": "cf417f4d75ff8d2a816aa7c15c8722453906fbaa",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }

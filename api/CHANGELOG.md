@@ -23,6 +23,20 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.4.0] - 2026-07-27
+
+### Added
+
+- **Custom roles and permission-based access control** — The API now supports custom roles — each can be named, granted a specific set of permissions, and given its own members. Access to every protected part of the API is now fully driven by a permission engine and a security classifier. Role changes require an MFA confirmation and are written to an audit record. ([PR #100](https://github.com/StarScreammZ/api.davesandersofficial.com/pull/100))
+
+### Changed
+
+- **⚠ BREAKING:** **Tier level is now categorized by ordinals** — Endpoints for access management now emit access role ordinals. Clients consuming the field will require a configuration update. ([PR #100](https://github.com/StarScreammZ/api.davesandersofficial.com/pull/100))
+
+### Security
+
+- **Role changes now take effect immediately** — When a user's role changes, their existing sessions lose the old level of access straight away and the old cache is immediately invalidated at the infrastructure level. ([PR #100](https://github.com/StarScreammZ/api.davesandersofficial.com/pull/100))
+
 ## [1.3.1] - 2026-07-25
 
 ### Security
@@ -83,7 +97,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.1...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.1.0...v1.2.0
