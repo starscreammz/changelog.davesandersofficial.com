@@ -325,6 +325,53 @@
           }
         }
       ]
+    },
+    {
+      "version": "0.11.1",
+      "releasedAt": "2026-08-01T21:15:16.223Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "email-sign-in-codes",
+          "category": "feature",
+          "title": {
+            "en": "Choose how you receive your sign-in code",
+            "cs": "Vyberte si, jak dostanete přihlašovací kód"
+          },
+          "body": {
+            "en": "During two-factor sign-in you can now choose how to verify — your authenticator app, a code sent to your email, or a recovery code. Asking for an email code sends one right away, and if it doesn't arrive you can request another shortly after. If your account has no authenticator app set, the login menu now allows you to choose an alternative method from those at your disposal. The SMS method is still in development.",
+            "cs": "Při dvoufázovém přihlášení si nyní můžete vybrat způsob ověření — ověřovací\naplikaci, kód zaslaný e-mailem nebo záložní kód. Po vyžádání kódu na e-mail vám\nho hned odešleme a pokud nedorazí, po krátké chvíli si můžete nechat poslat\ndalší. Pokud na svém účtu nemáte nastavenou ověřovací aplikaci, přihlašovací\nmenu nově nabízí alternativní způsoby, které máte k dispozici. SMS metoda je\nstále v přípravě."
+          },
+          "commit": "9fc6cb3cabf5e6650ef8c499d1e1d1f3ea4e9eb3",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "sign-in-code-guidance",
+          "category": "improvement",
+          "title": {
+            "en": "Sign-in messages now match the way you received the code",
+            "cs": "Přihlašovací hlášky nyní odpovídají způsobu, jakým jste kód obdrželi"
+          },
+          "body": {
+            "en": "When a code is rejected, the message now correctly describes the method you used. An authenticator code changes on its own, so the interface tells you to wait for the next one; the code sent via email, however, does not and is one-time only, so you will be advised to request a new one instead.",
+            "cs": "Když kód není uznán, hlášky nyní přesně popisují, kterou metodu jste využili.\nKód z ověřovací aplikace se sám pravidelně mění, proto vám rozhraní poradí\npočkat na další. Kód zaslaný e-mailem se však nemění a je jednorázový, proto\nvám doporučíme vyžádat si nový."
+          },
+          "commit": "9fc6cb3cabf5e6650ef8c499d1e1d1f3ea4e9eb3",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }

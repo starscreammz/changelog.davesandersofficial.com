@@ -23,6 +23,16 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [0.11.1] - 2026-08-01
+
+### Added
+
+- **Choose how you receive your sign-in code** — During two-factor sign-in you can now choose how to verify — your authenticator app, a code sent to your email, or a recovery code. Asking for an email code sends one right away, and if it doesn't arrive you can request another shortly after. If your account has no authenticator app set, the login menu now allows you to choose an alternative method from those at your disposal. The SMS method is still in development.
+
+### Changed
+
+- **Sign-in messages now match the way you received the code** — When a code is rejected, the message now correctly describes the method you used. An authenticator code changes on its own, so the interface tells you to wait for the next one; the code sent via email, however, does not and is one-time only, so you will be advised to request a new one instead.
+
 ## [0.10.1] - 2026-07-04
 
 ### Added
@@ -78,7 +88,8 @@ _Nothing yet._
 
 - **Official launch of the Changelog section** — A fully automated release pipeline with a window into GitHub. Entries now carry an author, notes, a publisher, and a general summary.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.1...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.11.1...HEAD
+[0.11.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.1...v0.11.1
 [0.10.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.0...v0.10.1
 [0.10.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.9.14...v0.10.0
 [0.9.14]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.9.13...v0.9.14
