@@ -23,6 +23,24 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.5.0] - 2026-08-01
+
+> ℹ️ **Note:** This release adds new-device sign-in alerts. When your account is signed into from a device you have not used before — including a sign-in through a social account — an email notification is sent to you. No action is required; the change takes effect automatically.
+
+### Added
+
+- **Sign-ins from a new device now send the user an email notification** — When your account is signed into from a device you have not used before, you will now receive an email with the device info and a timestamp. This protects users from being exploited via fake login pages. A device stays trusted for about a year as per our data privacy policy.
+
+### Changed
+
+- **Signing in with a social account now warns about a new device** — Signing in with a social account newly alerts the user about a new sign-in via email. Registering an account that way stays silent and is considered identical to the standard registration flow.
+- **Apps can now tell you when a recovery code has been used up** — If a recovery code is accepted but the sign-in cannot then be completed, that code is gone. The response now identifies this case on its own, so apps can tell you to use a different recovery code instead of showing generic guidance that does not apply to recovery codes. This covers both signing in and confirming a password reset.
+
+### Fixed
+
+- **A long browser identifier no longer breaks authentication** — Signing in, signing up and confirming a second factor could fail with a server error when the browser sent an unusually long identifier. Such a request is now rejected properly, with an error message description.
+- **The published API schema no longer marks optional fields as required** — Fields the API leaves out of a response were still listed as required in the published schema, so generated clients treated them as always present and strict validators rejected valid responses. They are now correctly optional.
+
 ## [1.4.0] - 2026-07-27
 
 ### Added
@@ -97,7 +115,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.2.0...v1.3.0

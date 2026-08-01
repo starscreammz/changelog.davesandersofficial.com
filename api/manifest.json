@@ -504,6 +504,114 @@
           }
         }
       ]
+    },
+    {
+      "version": "1.5.0",
+      "releasedAt": "2026-08-01T20:31:33.123Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "note": {
+        "body": {
+          "en": "This release adds new-device sign-in alerts. When your account is signed into from a device you have not used before — including a sign-in through a social account — an email notification is sent to you. No action is required; the change takes effect automatically.",
+          "cs": "Tato verze přináší upozornění na přihlášení z nového zařízení. Pokud se někdo přihlásí k vašemu\núčtu ze zařízení, které jste dosud nepoužili — včetně přihlášení přes sociální účet — je vám\nodesláno upozornění na e-mail. Z vaší strany není potřeba žádná akce, změny se projeví\nautomaticky."
+        },
+        "type": "info"
+      },
+      "entries": [
+        {
+          "slug": "device-info-length-returns-400",
+          "category": "fix",
+          "title": {
+            "en": "A long browser identifier no longer breaks authentication",
+            "cs": "Dlouhý identifikátor prohlížeče už nenaruší autentifikaci"
+          },
+          "body": {
+            "en": "Signing in, signing up and confirming a second factor could fail with a server error when the browser sent an unusually long identifier. Such a request is now rejected properly, with an error message description.",
+            "cs": "Přihlášení, registrace i ověření druhého faktoru mohly být ukončeny chybou na straně serveru,\na to v případě, kdy prohlížeč odeslal dlouhý identifikátor. Nyní je požadavek zamítnut a vrací\nchybovou hlášku s popisem chyby."
+          },
+          "commit": "0c9d31cb4c8937f136f135b3c6f1c4f802a1ed43",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "new-device-sign-in-alerts",
+          "category": "feature",
+          "title": {
+            "en": "Sign-ins from a new device now send the user an email notification",
+            "cs": "Přihlášení z nového zařízení uživateli nyní zašle notifikaci na e-mail"
+          },
+          "body": {
+            "en": "When your account is signed into from a device you have not used before, you will now receive an email with the device info and a timestamp. This protects users from being exploited via fake login pages. A device stays trusted for about a year as per our data privacy policy.",
+            "cs": "Pokud se někdo pokusí přihlásit k účtu uživatele ze zařízení, které dosud nebylo použito, je\nzaslána notifikace na e-mail s informacemi o daném zařízení a čase. Tento proces pomáhá chránit\nuživatele před falešnými přihlašovacími stránkami. Informace o důvěryhodném zařízení zůstane\nuchována přibližně rok dle zásad o ochraně dat."
+          },
+          "commit": "8685fb3ff7aeea5cc4eab60d091786f62dd953db",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "oauth-new-device-alerts-and-last-login",
+          "category": "improvement",
+          "title": {
+            "en": "Signing in with a social account now warns about a new device",
+            "cs": "Přihlášení přes sociální účet nyní upozorní na nové zařízení"
+          },
+          "body": {
+            "en": "Signing in with a social account newly alerts the user about a new sign-in via email. Registering an account that way stays silent and is considered identical to the standard registration flow.",
+            "cs": "Přihlášení prostřednictvím sociálního účtu nyní upozorní uživatele na nové přihlášení odesláním\nnotifikace na e-mail. Dále, vytvoření účtu tímto způsobem notifikace nezasílá, neboť je považováno\nza identické s běžnou registrací."
+          },
+          "commit": "8685fb3ff7aeea5cc4eab60d091786f62dd953db",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "openapi-required-omits-optional-members",
+          "category": "fix",
+          "title": {
+            "en": "The published API schema no longer marks optional fields as required",
+            "cs": "Publikované schéma API už neoznačuje volitelná pole jako povinná"
+          },
+          "body": {
+            "en": "Fields the API leaves out of a response were still listed as required in the published schema, so generated clients treated them as always present and strict validators rejected valid responses. They are now correctly optional.",
+            "cs": "Pole, která API v odpovědi vynechává, byla v publikovaném schématu uvedena jako povinná.\nGenerovaní klienti je proto považovali za vždy přítomná a striktní validátory odmítaly platné\nodpovědi. Nyní jsou volitelná."
+          },
+          "commit": "7a1dad0ed9f9a234be7f8f0336a63e1cfdf24bda",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "recovery-code-spent-is-reported-distinctly",
+          "category": "improvement",
+          "title": {
+            "en": "Apps can now tell you when a recovery code has been used up",
+            "cs": "Aplikace nyní pozná, že byl obnovovací kód spotřebován"
+          },
+          "body": {
+            "en": "If a recovery code is accepted but the sign-in cannot then be completed, that code is gone. The response now identifies this case on its own, so apps can tell you to use a different recovery code instead of showing generic guidance that does not apply to recovery codes. This covers both signing in and confirming a password reset.",
+            "cs": "Pokud je obnovovací kód přijat, ale přihlášení se nepodaří dokončit, je tento kód nenávratně\nspotřebován. Odpověď nyní tento případ rozlišuje, takže vás aplikace může vyzvat k použití jiného\nobnovovacího kódu namísto obecné hlášky, která pro obnovovací kódy neplatí. Platí pro přihlášení\ni pro potvrzení při obnově hesla."
+          },
+          "commit": "2dde156f3b030919b94e2e2ac679ee9ee6fdd997",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }
