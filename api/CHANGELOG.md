@@ -23,6 +23,17 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.5.1] - 2026-08-03
+
+### Fixed
+
+- **API keys reach the gateway again** — After a gateway upgrade, new and rotated API keys stopped reaching the gateway's configuration, so changes to them had no effect. Keys sync reliably again, and the result of that sync is now reported by the readiness check rather than passing silently.
+
+### Security
+
+- **Social sign-in endpoints are now rate limited** — The endpoints for OAuth methods, which are used for social sign-in, are now covered by a rate-limit profile and no longer accept unlimited requests. They sit behind the same authentication protection as the rest of the system.
+- **Password-reset and verification emails are now rate limited per individual address** — Endpoints that send verification emails are now protected against repeated resends to a single address, with a cooldown period between sends. The whole system is also covered by a global limit on outbound mail. This provides more robust protection against repeated abuse and bots.
+
 ## [1.5.0] - 2026-08-01
 
 > ℹ️ **Note:** This release adds new-device sign-in alerts. When your account is signed into from a device you have not used before — including a sign-in through a social account — an email notification is sent to you. No action is required; the change takes effect automatically.
@@ -115,7 +126,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.1...HEAD
+[1.5.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.0...v1.3.1

@@ -612,6 +612,71 @@
           }
         }
       ]
+    },
+    {
+      "version": "1.5.1",
+      "releasedAt": "2026-08-03T00:19:06.719Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "gateway-consumer-sync-restored",
+          "category": "fix",
+          "title": {
+            "en": "API keys reach the gateway again",
+            "cs": "API klíče se opět propisují do brány"
+          },
+          "body": {
+            "en": "After a gateway upgrade, new and rotated API keys stopped reaching the gateway's configuration, so changes to them had no effect. Keys sync reliably again, and the result of that sync is now reported by the readiness check rather than passing silently.",
+            "cs": "Po aktualizaci brány přestaly nové i obnovené API klíče doputovat do její konfigurace, takže se\nzměny neprojevily. Klíče se nyní propisují spolehlivě znovu a výsledek této synchronizace navíc\nhlásí kontrola připravenosti, takže případný výpadek už neproběhne nepozorovaně."
+          },
+          "commit": "83358ad116b782fb595bcbf2b7191b24f32ca800",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "oauth-endpoints-rate-limited",
+          "category": "security",
+          "title": {
+            "en": "Social sign-in endpoints are now rate limited",
+            "cs": "Přihlašování přes sociální sítě je nyní chráněno limitem požadavků"
+          },
+          "body": {
+            "en": "The endpoints for OAuth methods, which are used for social sign-in, are now covered by a rate-limit profile and no longer accept unlimited requests. They sit behind the same authentication protection as the rest of the system.",
+            "cs": "Endpointy metod OAuth, které se používají pro přihlašování přes sociální sítě, jsou nyní chráněny\nbezpečnostním limitem počtu požadavků a již nepřijímají neomezené množství dotazů. Vztahuje se na\nně stejná autentizační ochrana jako na zbytek systému."
+          },
+          "commit": "d9b80d62daae920c84539fc472dc7bb6910bb1ce",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "resend-cooldown-and-mail-ceiling",
+          "category": "security",
+          "title": {
+            "en": "Password-reset and verification emails are now rate limited per individual address",
+            "cs": "Odesílání e-mailů pro obnovu hesla a ověření je nyní omezeno podle individuální adresy"
+          },
+          "body": {
+            "en": "Endpoints that send verification emails are now protected against repeated resends to a single address, with a cooldown period between sends. The whole system is also covered by a global limit on outbound mail. This provides more robust protection against repeated abuse and bots.",
+            "cs": "Endpointy odesílající ověřovací e-maily jsou nyní chráněny proti opakovanému odeslání na jednu\nadresu, a to prodlevou mezi jednotlivými odesláními. Celý systém má rovněž globální strop na\nodchozí poštu. Toto vylepšení poskytuje robustnější ochranu proti zneužití a botům."
+          },
+          "commit": "5c2f5799b474773b5f9d239095b20603a2c1d711",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }
