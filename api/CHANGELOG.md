@@ -23,6 +23,17 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.6.0] - 2026-08-08
+
+### Added
+
+- **Added trusted device management to user self-service portal** — You can now review the devices signed in to your account and sign out of, or remove, any of them individually. New-device sign-in alerts now contain the approximate geo-location of the specific sign-in (from your network, never exact location) and provide a link straight to your device list. ([PR #128](https://github.com/StarScreammZ/api.davesandersofficial.com/pull/128))
+
+### Changed
+
+- **Standards-compliant authentication challenge on responses with code 401** — API responses with a 401 (Unauthorized) status code now strictly include a standard WWW-Authenticate challenge header (per RFC 7235). Client integrations can now rely on a consistent, standards-based signal that authentication is required.
+- **Clearer cookie and privacy information distribution** — Cookie and privacy information data (including data controller, your data-subject rights, and the purpose of each cookie) are now published from a single source. This provides centralized control and full consistency across the whole site. ([PR #127](https://github.com/StarScreammZ/api.davesandersofficial.com/pull/127))
+
 ## [1.5.1] - 2026-08-03
 
 ### Fixed
@@ -126,7 +137,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.1...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.1...v1.6.0
 [1.5.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.3.1...v1.4.0

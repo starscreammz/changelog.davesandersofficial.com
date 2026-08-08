@@ -526,11 +526,11 @@
           "category": "fix",
           "title": {
             "en": "A long browser identifier no longer breaks authentication",
-            "cs": "Dlouhý identifikátor prohlížeče už nenaruší autentifikaci"
+            "cs": "Dlouhý identifikátor prohlížeče již nepřeruší autentifikaci"
           },
           "body": {
             "en": "Signing in, signing up and confirming a second factor could fail with a server error when the browser sent an unusually long identifier. Such a request is now rejected properly, with an error message description.",
-            "cs": "Přihlášení, registrace i ověření druhého faktoru mohly být ukončeny chybou na straně serveru,\na to v případě, kdy prohlížeč odeslal dlouhý identifikátor. Nyní je požadavek zamítnut a vrací\nchybovou hlášku s popisem chyby."
+            "cs": "Přihlášení, registrace i ověření druhého faktoru mohly být ukončeny chybou na straně serveru, a to v případě, kdy prohlížeč odeslal příliš dlouhý identifikátor. Nyní je požadavek zamítnut a vrací chybovou hlášku se správným popisem chyby."
           },
           "commit": "0c9d31cb4c8937f136f135b3c6f1c4f802a1ed43",
           "author": {
@@ -544,11 +544,11 @@
           "category": "feature",
           "title": {
             "en": "Sign-ins from a new device now send the user an email notification",
-            "cs": "Přihlášení z nového zařízení uživateli nyní zašle notifikaci na e-mail"
+            "cs": "Přihlášení z nového zařízení uživateli zašle notifikaci na e-mail"
           },
           "body": {
             "en": "When your account is signed into from a device you have not used before, you will now receive an email with the device info and a timestamp. This protects users from being exploited via fake login pages. A device stays trusted for about a year as per our data privacy policy.",
-            "cs": "Pokud se někdo pokusí přihlásit k účtu uživatele ze zařízení, které dosud nebylo použito, je\nzaslána notifikace na e-mail s informacemi o daném zařízení a čase. Tento proces pomáhá chránit\nuživatele před falešnými přihlašovacími stránkami. Informace o důvěryhodném zařízení zůstane\nuchována přibližně rok dle zásad o ochraně dat."
+            "cs": "Pokud se někdo pokusí přihlásit k účtu uživatele ze zařízení, které dosud nebylo použito, je zaslána notifikace na e-mail s informacemi o daném zařízení a čase. Tento proces pomáhá chránit uživatele před falešnými přihlašovacími stránkami. Informace o důvěryhodném zařízení zůstane uchována přibližně rok dle zásad o ochraně dat."
           },
           "commit": "8685fb3ff7aeea5cc4eab60d091786f62dd953db",
           "author": {
@@ -562,11 +562,11 @@
           "category": "improvement",
           "title": {
             "en": "Signing in with a social account now warns about a new device",
-            "cs": "Přihlášení přes sociální účet nyní upozorní na nové zařízení"
+            "cs": "Přihlášení přes sociální účet nově upozorní na nové zařízení"
           },
           "body": {
             "en": "Signing in with a social account newly alerts the user about a new sign-in via email. Registering an account that way stays silent and is considered identical to the standard registration flow.",
-            "cs": "Přihlášení prostřednictvím sociálního účtu nyní upozorní uživatele na nové přihlášení odesláním\nnotifikace na e-mail. Dále, vytvoření účtu tímto způsobem notifikace nezasílá, neboť je považováno\nza identické s běžnou registrací."
+            "cs": "Přihlášení prostřednictvím sociálního účtu nyní upozorní uživatele na nové přihlášení odesláním notifikace na e-mail. Naopak, vytvoření účtu tímto způsobem žádné notifikace nezasílá, neboť je tento proces považován za identický s běžnou registrací."
           },
           "commit": "8685fb3ff7aeea5cc4eab60d091786f62dd953db",
           "author": {
@@ -580,11 +580,11 @@
           "category": "fix",
           "title": {
             "en": "The published API schema no longer marks optional fields as required",
-            "cs": "Publikované schéma API už neoznačuje volitelná pole jako povinná"
+            "cs": "Publikované schéma API již neoznačuje volitelná pole jako povinná"
           },
           "body": {
             "en": "Fields the API leaves out of a response were still listed as required in the published schema, so generated clients treated them as always present and strict validators rejected valid responses. They are now correctly optional.",
-            "cs": "Pole, která API v odpovědi vynechává, byla v publikovaném schématu uvedena jako povinná.\nGenerovaní klienti je proto považovali za vždy přítomná a striktní validátory odmítaly platné\nodpovědi. Nyní jsou volitelná."
+            "cs": "Pole, která API v odpovědi vynechává, byla v publikovaném schématu chybně uvedena jako povinná. Klienti je proto považovali za vždy přítomná a striktní validátory následně odmítaly platné odpovědi. Nyní jsou tato pole správně identifikována jako volitelná."
           },
           "commit": "7a1dad0ed9f9a234be7f8f0336a63e1cfdf24bda",
           "author": {
@@ -598,11 +598,11 @@
           "category": "improvement",
           "title": {
             "en": "Apps can now tell you when a recovery code has been used up",
-            "cs": "Aplikace nyní pozná, že byl obnovovací kód spotřebován"
+            "cs": "Autentifikace nyní rozpozná již použitý obnovovací kód"
           },
           "body": {
             "en": "If a recovery code is accepted but the sign-in cannot then be completed, that code is gone. The response now identifies this case on its own, so apps can tell you to use a different recovery code instead of showing generic guidance that does not apply to recovery codes. This covers both signing in and confirming a password reset.",
-            "cs": "Pokud je obnovovací kód přijat, ale přihlášení se nepodaří dokončit, je tento kód nenávratně\nspotřebován. Odpověď nyní tento případ rozlišuje, takže vás aplikace může vyzvat k použití jiného\nobnovovacího kódu namísto obecné hlášky, která pro obnovovací kódy neplatí. Platí pro přihlášení\ni pro potvrzení při obnově hesla."
+            "cs": "Pokud byl při přihlašovaní využit záložní obnovovací kód, ale proces se z nějakého důvodu nepodaří dokončit, je daný kód nenávratně vyřazen z oběhu. V takovém případě uživatel může být při příštím přihlášení vyzván k použití jiného obnovovacího kódu. Tato změna se vztahuje pro přihlášení, a také pro potvrzení při obnově hesla."
           },
           "commit": "2dde156f3b030919b94e2e2ac679ee9ee6fdd997",
           "author": {
@@ -627,11 +627,11 @@
           "category": "fix",
           "title": {
             "en": "API keys reach the gateway again",
-            "cs": "API klíče se opět propisují do brány"
+            "cs": "API brána opět registruje změny API klíčů"
           },
           "body": {
             "en": "After a gateway upgrade, new and rotated API keys stopped reaching the gateway's configuration, so changes to them had no effect. Keys sync reliably again, and the result of that sync is now reported by the readiness check rather than passing silently.",
-            "cs": "Po aktualizaci brány přestaly nové i obnovené API klíče doputovat do její konfigurace, takže se\nzměny neprojevily. Klíče se nyní propisují spolehlivě znovu a výsledek této synchronizace navíc\nhlásí kontrola připravenosti, takže případný výpadek už neproběhne nepozorovaně."
+            "cs": "Opravena chyba, kdy se obnovené, či nově vydané API klíče nepropisovaly do konfigurace API brány, a proto jakékoli změny nebyly registrovány. Synchronizace nyní tyto změny registruje a stav procesu se nově také promítne do Endpointu pro sledování stavu celkového zdraví brány."
           },
           "commit": "83358ad116b782fb595bcbf2b7191b24f32ca800",
           "author": {
@@ -670,6 +670,87 @@
             "cs": "Endpointy odesílající ověřovací e-maily jsou nyní chráněny proti opakovanému odeslání na jednu\nadresu, a to prodlevou mezi jednotlivými odesláními. Celý systém má rovněž globální strop na\nodchozí poštu. Toto vylepšení poskytuje robustnější ochranu proti zneužití a botům."
           },
           "commit": "5c2f5799b474773b5f9d239095b20603a2c1d711",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.6.0",
+      "releasedAt": "2026-08-08T21:46:11.239Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "api-401-www-authenticate",
+          "category": "improvement",
+          "title": {
+            "en": "Standards-compliant authentication challenge on responses with code 401",
+            "cs": "Standardizovaná ověřovací výzva u odpovědí s kódem 401"
+          },
+          "body": {
+            "en": "API responses with a 401 (Unauthorized) status code now strictly include a standard\nWWW-Authenticate challenge header (per RFC 7235). Client integrations can now rely on a\nconsistent, standards-based signal that authentication is required.",
+            "cs": "Odpovědi API se stavem 401 (Neautorizováno) nyní vždy obsahují standardní\nheader WWW-Authenticate (dle normy RFC 7235). Klientské integrace se nyní mohou spolehnout\nna sjednocený a spolehlivý způsob, jak rozpoznat, že je vyžadováno přihlášení."
+          },
+          "commit": "3707b0af83e2d34d6a252b7156c281b566505f14",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "config-privacy-transparency",
+          "category": "improvement",
+          "title": {
+            "en": "Clearer cookie and privacy information distribution",
+            "cs": "Přehlednější distribuce informací o cookies a soukromí"
+          },
+          "body": {
+            "en": "Cookie and privacy information data (including data controller, your data-subject\nrights, and the purpose of each cookie) are now published from a single source.\nThis provides centralized control and full consistency across the whole site.",
+            "cs": "Informace o cookies a ochraně osobních údajů (správce, uživatelská práva a účel\njednotlivých cookies) se nyní publikují z jednoho zdroje. Toto vylepšení umožňuje plně\ncentralizovanou kontrolu a konzistenci napříč celou aplikací."
+          },
+          "links": [
+            {
+              "label": {
+                "en": "PR #127"
+              },
+              "url": "https://github.com/StarScreammZ/api.davesandersofficial.com/pull/127"
+            }
+          ],
+          "commit": "3707b0af83e2d34d6a252b7156c281b566505f14",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "device-management",
+          "category": "feature",
+          "title": {
+            "en": "Added trusted device management to user self-service portal",
+            "cs": "Přidána správa důvěryhodných zařízení do uživatelského portálu"
+          },
+          "body": {
+            "en": "You can now review the devices signed in to your account and sign out of, or\nremove, any of them individually. New-device sign-in alerts now contain the\napproximate geo-location of the specific sign-in (from your network, never exact\nlocation) and provide a link straight to your device list.",
+            "cs": "Nyní si můžete zobrazit všechna zařízení přihlášená k vašemu účtu a jednotlivě se z nich\nodhlásit, nebo je přímo odebrat. Upozornění na přihlášení z nového zařízení nově uvádí\npřibližnou geo-polohu konkrétního přihlášení (dle sítě uživatele, nikoli přesnou polohu) a\nposkytuje link přímo na seznam všech přihlášených zařízení."
+          },
+          "links": [
+            {
+              "label": {
+                "en": "PR #128"
+              },
+              "url": "https://github.com/StarScreammZ/api.davesandersofficial.com/pull/128"
+            }
+          ],
+          "commit": "3707b0af83e2d34d6a252b7156c281b566505f14",
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
