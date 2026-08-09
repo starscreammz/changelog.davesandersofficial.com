@@ -372,6 +372,89 @@
           }
         }
       ]
+    },
+    {
+      "version": "0.12.0",
+      "releasedAt": "2026-08-09T23:36:17.144Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "changelog-author-once",
+          "category": "fix",
+          "title": {
+            "en": "Changelog author shown once per release",
+            "cs": "Oprava duplikace autora v jednotlivých vydáních Changelogu"
+          },
+          "body": {
+            "en": "When a release is one person's work spread across several commits, their name now appears a single time in the footer instead of on every entry. Each item still shows its own commit; this behaviour stays unchanged.",
+            "cs": "Pokud bylo konkrétní vydání aplikace dílem pouze jednoho autora, nebude se nyní chybně opakovat u každého záznamu a bude zobrazen pouze jednou. Každá položka ve vydání stále nese informace o svém commitu. Tento design zůstává beze změny."
+          },
+          "commit": "faae830018159a6d5d3955d253d0ce893e08cf4e",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "changelog-blog-gallery-cleanup",
+          "category": "improvement",
+          "title": {
+            "en": "Cleaner look for Changelog, Blog, and Gallery",
+            "cs": "Přehlednější vzhled pro Changelog, Blog a Galerii"
+          },
+          "body": {
+            "en": "App and version labels, and the page controls, were tidied for a more consistent, less cluttered look.",
+            "cs": "Štítky s verzemi aplikací a ovládací prvky na jednotlivých stránkách nyní získaly přehlednější uspořádání a nový vzhled s méně rušivým stylem."
+          },
+          "commit": "faae830018159a6d5d3955d253d0ce893e08cf4e",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "cookie-consent-center",
+          "category": "feature",
+          "title": {
+            "en": "Cookie consent banner and a new preferences panel",
+            "cs": "Souhlas s využíváním cookies a nový panel pro správu"
+          },
+          "body": {
+            "en": "On your first visit you can accept or customize which cookies the site uses. A settings panel offers per-category choices that save automatically, and a floating button in the site footer reopens your preferences at any time.",
+            "cs": "Při první návštěvě si nyní mohou uživatelé zvolit, které soubory cookie chtějí či nechtějí využívat. Nový panel předvoleb umožňuje zvolit jednotlivé kategorie souborů cookie s automatickým ukládáním změn. Přidáno bylo také plovoucí tlačítko v patičce webu s rychlým přístupem k panelu."
+          },
+          "commit": "faae830018159a6d5d3955d253d0ce893e08cf4e",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "ui-cosmetic-overhaul",
+          "category": "improvement",
+          "title": {
+            "en": "Cosmetic overhaul for the web UI",
+            "cs": "Kosmetické úpravy webového UI"
+          },
+          "body": {
+            "en": "Tooltips, dropdown menus, and filter controls now share one consistent look and coloring across the whole site, including a clearer pointer tip on tooltips.",
+            "cs": "Plovoucí pole s nápovědou, roletky s menu a filtry nyní sdílejí konzistentní vzhled a barevný styl napříč celou aplikací. A to včetně nově přidaného ukazatele na poli s nápovědou."
+          },
+          "commit": "faae830018159a6d5d3955d253d0ce893e08cf4e",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }

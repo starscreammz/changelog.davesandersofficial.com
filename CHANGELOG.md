@@ -23,6 +23,21 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [0.12.0] - 2026-08-09
+
+### Added
+
+- **Cookie consent banner and a new preferences panel** — On your first visit you can accept or customize which cookies the site uses. A settings panel offers per-category choices that save automatically, and a floating button in the site footer reopens your preferences at any time.
+
+### Changed
+
+- **Cleaner look for Changelog, Blog, and Gallery** — App and version labels, and the page controls, were tidied for a more consistent, less cluttered look.
+- **Cosmetic overhaul for the web UI** — Tooltips, dropdown menus, and filter controls now share one consistent look and coloring across the whole site, including a clearer pointer tip on tooltips.
+
+### Fixed
+
+- **Changelog author shown once per release** — When a release is one person's work spread across several commits, their name now appears a single time in the footer instead of on every entry. Each item still shows its own commit; this behaviour stays unchanged.
+
 ## [0.11.1] - 2026-08-01
 
 ### Added
@@ -88,7 +103,8 @@ _Nothing yet._
 
 - **Official launch of the Changelog section** — A fully automated release pipeline with a window into GitHub. Entries now carry an author, notes, a publisher, and a general summary.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.11.1...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.12.0...HEAD
+[0.12.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.11.1...v0.12.0
 [0.11.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.1...v0.11.1
 [0.10.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.0...v0.10.1
 [0.10.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.9.14...v0.10.0
