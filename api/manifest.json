@@ -772,10 +772,12 @@
           "slug": "changelog-release-commit-sha",
           "category": "feature",
           "title": {
-            "en": "Release commit SHA on changelog entries"
+            "en": "Release Commit SHA on each Changelog entry",
+            "cs": "Commit SHA nyní uveden u každého vydání Changelogu"
           },
           "body": {
-            "en": "`GET /changelog/entries` now carries two optional release-level fields per entry: `releaseCommitSha` (the commit the release tag points at) and a server-derived `releaseCommitUrl` link to it. The URL is omitted for private repos, mirroring how the release link is masked. Both are additive and absent until the changelog producer supplies the value."
+            "en": "Individual Changelog entries now carry two optional release-level fields. The first, `releaseCommitSha`, is the commit the release tag points at; the second is a server-derived `releaseCommitUrl` link to it. The URL is omitted for private source repos, mirroring how the release link is masked. Both are additive and absent until the changelog producer supplies the value.",
+            "cs": "Jednotlivé záznamy Changelogu nově obsahují dvě nová pole pro každé vydání. Prvním novým polem je `releaseCommitSha` (commit, na který ukazuje daný tag pro vydání) a dále pole `releaseCommitUrl`, které je zpracováno na straně serveru a nese odkaz náležící danému commitu. Odkazy jsou skryty v případě, že je zdrojový repozitář nastaven jako soukromý. Jde o stejný princip jako u odkazů na celé vydání.\nObě pole jsou volitelná a nebudou dostupná do chvíle, kdy publikující proces poskytne vstupní data."
           },
           "commit": "b30b4c5e4c669edb52416a9fdc6cb9facc2e2e0f",
           "author": {
