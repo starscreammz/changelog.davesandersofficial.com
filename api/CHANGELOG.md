@@ -23,6 +23,12 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.7.0] - 2026-08-09
+
+### Added
+
+- **Release commit SHA on changelog entries** — `GET /changelog/entries` now carries two optional release-level fields per entry: `releaseCommitSha` (the commit the release tag points at) and a server-derived `releaseCommitUrl` link to it. The URL is omitted for private repos, mirroring how the release link is masked. Both are additive and absent until the changelog producer supplies the value.
+
 ## [1.6.0] - 2026-08-08
 
 ### Added
@@ -137,7 +143,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.6.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.7.0...HEAD
+[1.7.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.1...v1.6.0
 [1.5.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.4.0...v1.5.0

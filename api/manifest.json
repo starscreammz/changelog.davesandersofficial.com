@@ -758,6 +758,33 @@
           }
         }
       ]
+    },
+    {
+      "version": "1.7.0",
+      "releasedAt": "2026-08-09T21:59:15.052Z",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "changelog-release-commit-sha",
+          "category": "feature",
+          "title": {
+            "en": "Release commit SHA on changelog entries"
+          },
+          "body": {
+            "en": "`GET /changelog/entries` now carries two optional release-level fields per entry: `releaseCommitSha` (the commit the release tag points at) and a server-derived `releaseCommitUrl` link to it. The URL is omitted for private repos, mirroring how the release link is masked. Both are additive and absent until the changelog producer supplies the value."
+          },
+          "commit": "b30b4c5e4c669edb52416a9fdc6cb9facc2e2e0f",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }
