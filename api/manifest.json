@@ -170,6 +170,8 @@
     {
       "version": "1.2.0",
       "releasedAt": "2026-06-25T21:09:55.880Z",
+      "commitSha": "4bb8947d5c43d6d6362449427edbf581152367b0",
+      "releaseCommitSha": "4bb8947d5c43d6d6362449427edbf581152367b0",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -307,6 +309,8 @@
     {
       "version": "1.3.0",
       "releasedAt": "2026-07-17T18:16:40.038Z",
+      "commitSha": "14149a96a32f8d30818d008e4ecc9d50338b4cbd",
+      "releaseCommitSha": "14149a96a32f8d30818d008e4ecc9d50338b4cbd",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -390,6 +394,8 @@
     {
       "version": "1.3.1",
       "releasedAt": "2026-07-25T16:32:30.982Z",
+      "commitSha": "df96e573e454316f71c8b74d255511f211bfd763",
+      "releaseCommitSha": "df96e573e454316f71c8b74d255511f211bfd763",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -419,6 +425,8 @@
     {
       "version": "1.4.0",
       "releasedAt": "2026-07-27T14:54:23.116Z",
+      "commitSha": "c1abcdb5ffc4fa3e6705d3b29131c7e2222cdae8",
+      "releaseCommitSha": "c1abcdb5ffc4fa3e6705d3b29131c7e2222cdae8",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -508,6 +516,8 @@
     {
       "version": "1.5.0",
       "releasedAt": "2026-08-01T20:31:33.123Z",
+      "commitSha": "9dc64b6d5d3c1c22a1ccdb3080eae56077d47989",
+      "releaseCommitSha": "9dc64b6d5d3c1c22a1ccdb3080eae56077d47989",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -616,6 +626,8 @@
     {
       "version": "1.5.1",
       "releasedAt": "2026-08-03T00:19:06.719Z",
+      "commitSha": "04dbce11bf30323ea5caf9378bda428d41aec245",
+      "releaseCommitSha": "04dbce11bf30323ea5caf9378bda428d41aec245",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -681,6 +693,8 @@
     {
       "version": "1.6.0",
       "releasedAt": "2026-08-08T21:46:11.239Z",
+      "commitSha": "46c8929973d853cdd04bedec8e914e68407a1ef3",
+      "releaseCommitSha": "46c8929973d853cdd04bedec8e914e68407a1ef3",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -762,6 +776,8 @@
     {
       "version": "1.7.0",
       "releasedAt": "2026-08-09T21:59:15.052Z",
+      "commitSha": "8bd7b13ff40664cdb612aac805406343091d198c",
+      "releaseCommitSha": "8bd7b13ff40664cdb612aac805406343091d198c",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
