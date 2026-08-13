@@ -803,6 +803,35 @@
           }
         }
       ]
+    },
+    {
+      "version": "1.8.0",
+      "releasedAt": "2026-08-13T19:17:55.534Z",
+      "commitSha": "a622d79ee860ee9d8a01e9164857532fc69f5c1c",
+      "releaseCommitSha": "a622d79ee860ee9d8a01e9164857532fc69f5c1c",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "translation-service-delivery",
+          "category": "feature",
+          "title": {
+            "en": "Translation delivery API"
+          },
+          "body": {
+            "en": "Adds read-only, edge-cacheable translation endpoints (`GET /translations/{namespace}` and `GET /translations/manifest`) that serve per-locale i18next packs from an in-memory versioned snapshot, seeded with the `consent` namespace so the cookie modal can show back-end–owned localized category descriptions."
+          },
+          "commit": "f1adc9eb64c9c090306eab1c4549179be888bf32",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }

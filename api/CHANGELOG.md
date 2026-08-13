@@ -23,6 +23,12 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.8.0] - 2026-08-13
+
+### Added
+
+- **Translation delivery API** — Adds read-only, edge-cacheable translation endpoints (`GET /translations/{namespace}` and `GET /translations/manifest`) that serve per-locale i18next packs from an in-memory versioned snapshot, seeded with the `consent` namespace so the cookie modal can show back-end–owned localized category descriptions.
+
 ## [1.7.0] - 2026-08-09
 
 ### Added
@@ -143,7 +149,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.7.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.8.0...HEAD
+[1.8.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.7.0...v1.8.0
 [1.7.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.1...v1.6.0
 [1.5.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.0...v1.5.1
