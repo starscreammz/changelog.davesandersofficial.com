@@ -455,6 +455,37 @@
           }
         }
       ]
+    },
+    {
+      "version": "0.13.1",
+      "releasedAt": "2026-08-15T19:07:17.070Z",
+      "commitSha": "47db1a039fc1d8253bf1cae13a85ccbb5a407981",
+      "releaseCommitSha": "47db1a039fc1d8253bf1cae13a85ccbb5a407981",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "i18n-cdn-translations",
+          "category": "feature",
+          "title": {
+            "en": "CDN-served translations with integrity verification",
+            "cs": "Distribuce překladů z CDN s ověřením integrity"
+          },
+          "body": {
+            "en": "Interface translations now load from a content-addressed CDN with deep per-pack\nintegrity checks and regression protection. The fetching falls back to the newest\nbundled local copy whenever the source can't be reached. This protects translation\nupdates from shipping a partial or stale version.",
+            "cs": "Překlady na webu se nyní načítají z CDN sítě, s hloubkovou kontrolou\nintegrity každého balíčku a robustní ochranou proti regresi. Pokud\nzdroj není dostupný, použije se nejnovější lokální verze jako záložní\nvarianta. Tímto se zabrání stavu částečné nebo zastaralé jazykové verze."
+          },
+          "commit": "2df1adb75f0dfd843cb29e25b745b5a635c2a8fe",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
     }
   ]
 }

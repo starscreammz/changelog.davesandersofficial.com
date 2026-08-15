@@ -23,6 +23,12 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [0.13.1] - 2026-08-15
+
+### Added
+
+- **CDN-served translations with integrity verification** — Interface translations now load from a content-addressed CDN with deep per-pack integrity checks and regression protection. The fetching falls back to the newest bundled local copy whenever the source can't be reached. This protects translation updates from shipping a partial or stale version.
+
 ## [0.12.0] - 2026-08-09
 
 ### Added
@@ -103,7 +109,8 @@ _Nothing yet._
 
 - **Official launch of the Changelog section** — A fully automated release pipeline with a window into GitHub. Entries now carry an author, notes, a publisher, and a general summary.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.12.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.13.1...HEAD
+[0.13.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.12.0...v0.13.1
 [0.12.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.11.1...v0.12.0
 [0.11.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.1...v0.11.1
 [0.10.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.0...v0.10.1
