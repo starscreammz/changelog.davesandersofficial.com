@@ -807,8 +807,6 @@
     {
       "version": "1.8.0",
       "releasedAt": "2026-08-13T19:17:55.534Z",
-      "commitSha": "a622d79ee860ee9d8a01e9164857532fc69f5c1c",
-      "releaseCommitSha": "a622d79ee860ee9d8a01e9164857532fc69f5c1c",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -819,12 +817,105 @@
           "slug": "translation-service-delivery",
           "category": "feature",
           "title": {
-            "en": "Translation delivery API"
+            "en": "Translation CDN now part of the API",
+            "cs": "CDN pro překlady je nyní součástí API"
           },
           "body": {
-            "en": "Adds read-only, edge-cacheable translation endpoints (`GET /translations/{namespace}` and `GET /translations/manifest`) that serve per-locale i18next packs from an in-memory versioned snapshot, seeded with the `consent` namespace so the cookie modal can show back-end–owned localized category descriptions."
+            "en": "Adds read-only, edge-cacheable translation endpoints (`GET /translations/{namespace}` and `GET /translations/manifest`) that serve per-locale translation packs from an in-memory versioned snapshot.",
+            "cs": "Přidány nové endpointy (`GET /translations/{namespace}` a `GET /translations/manifest`) pro distribuci 'cachovaných' překladů pro jednotlivé jazykové balíčky, které jsou přímým a nejnovějším snapshotem paměti API."
           },
           "commit": "f1adc9eb64c9c090306eab1c4549179be888bf32",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.9.0",
+      "releasedAt": "2026-08-15T14:58:52.173Z",
+      "commitSha": "e150f69ee924facc3ef42607b396bb9c46f6b694",
+      "releaseCommitSha": "e150f69ee924facc3ef42607b396bb9c46f6b694",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "consent-full-localization",
+          "category": "feature",
+          "title": {
+            "en": "Complete localized cookie-consent text",
+            "cs": "Kompletní lokalizované texty souhlasu s cookies"
+          },
+          "body": {
+            "en": "The cookie-consent dialog's full text including titles, actions, hints, and every category description — is now provided in each supported language from a single source. This change fully replaces the earlier partial and static defaults.",
+            "cs": "Veškeré texty rozhraní pro souhlas s cookies, zahrnující nadpisy, akce, nápovědy a popis každé\nkategorie, jsou nyní ve všech podporovaných jazycích poskytovány z jednoho zdroje na straně\nserveru. Tato změna plně nahrazuje předchozí, částečné a statické výchozí hodnoty."
+          },
+          "links": [
+            {
+              "label": {
+                "en": "PR #152"
+              },
+              "url": "https://github.com/StarScreammZ/api.davesandersofficial.com/pull/152"
+            }
+          ],
+          "commit": "c14d01272c90636644c3463fb680492f4a4de1d0",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "public-config-cdn-versioned",
+          "category": "feature",
+          "title": {
+            "en": "Web application configuration is now part of the CDN and versioned",
+            "cs": "Verzovaná konfigurace webové aplikace je nyní dostupná na CDN"
+          },
+          "body": {
+            "en": "The public web app configuration feed is now openly cacheable at the edge using a CDN and carries its own version and timestamp. Configuration changes are detected and picked up immediately while the feed is still served fast from cache.",
+            "cs": "Veřejná konfigurace webové aplikace je nyní součástí cache na okraji sítě díky využití CDN\na nese vlastní verzi a časovou značku. Změny konfigurace se detekují a propisují okamžitě,\nzatímco je konfigurace neustále distribuována z cache."
+          },
+          "links": [
+            {
+              "label": {
+                "en": "PR #152"
+              },
+              "url": "https://github.com/StarScreammZ/api.davesandersofficial.com/pull/152"
+            }
+          ],
+          "commit": "c14d01272c90636644c3463fb680492f4a4de1d0",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "translations-cdn-integrity-packs",
+          "category": "feature",
+          "title": {
+            "en": "Versioned translation publishing and integrity-signed CDN packs",
+            "cs": "Verzované publikování překladových balíčků na CDN s ověřením integrity"
+          },
+          "body": {
+            "en": "Each localized translation pack is now published as an immutable, content-addressed file on a CDN, carrying a hashed integrity fingerprint under a versioned manifest that records the exact published version and timestamp. The site can now verify every pack it loads is authentic and complete. Updates are no longer prone to serving a partial or outdated bundle.",
+            "cs": "Každý balíček s lokalizacemi se nyní publikuje jako neměnný soubor s adresou odvozenou\nz obsahu, doručovaný prostřednictvím CDN, s hashovaným otiskem integrity, který je součástí\nmanifestu. Manifest nese přesnou publikovanou verzi a časovou značku, pomocí které web může\nověřit, že každý načtený balíček je zcela autentický a úplný. Díky ověřování se tak už nikdy\nnezobrazí neúplná nebo zastaralá sada překladů."
+          },
+          "links": [
+            {
+              "label": {
+                "en": "PR #152"
+              },
+              "url": "https://github.com/StarScreammZ/api.davesandersofficial.com/pull/152"
+            }
+          ],
+          "commit": "c14d01272c90636644c3463fb680492f4a4de1d0",
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",

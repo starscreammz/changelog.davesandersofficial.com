@@ -23,6 +23,14 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.9.0] - 2026-08-15
+
+### Added
+
+- **Complete localized cookie-consent text** — The cookie-consent dialog's full text including titles, actions, hints, and every category description — is now provided in each supported language from a single source. This change fully replaces the earlier partial and static defaults. ([PR #152](https://github.com/StarScreammZ/api.davesandersofficial.com/pull/152))
+- **Web application configuration is now part of the CDN and versioned** — The public web app configuration feed is now openly cacheable at the edge using a CDN and carries its own version and timestamp. Configuration changes are detected and picked up immediately while the feed is still served fast from cache. ([PR #152](https://github.com/StarScreammZ/api.davesandersofficial.com/pull/152))
+- **Versioned translation publishing and integrity-signed CDN packs** — Each localized translation pack is now published as an immutable, content-addressed file on a CDN, carrying a hashed integrity fingerprint under a versioned manifest that records the exact published version and timestamp. The site can now verify every pack it loads is authentic and complete. Updates are no longer prone to serving a partial or outdated bundle. ([PR #152](https://github.com/StarScreammZ/api.davesandersofficial.com/pull/152))
+
 ## [1.8.0] - 2026-08-13
 
 ### Added
@@ -149,7 +157,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.8.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.9.0...HEAD
+[1.9.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.7.0...v1.8.0
 [1.7.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.5.1...v1.6.0
