@@ -23,6 +23,12 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.10.0] - 2026-08-22
+
+### Added
+
+- **Web appearance and display preferences now sync across user devices** — User can now customize and save appearance preferences, including color theme, the scroll-to-top button, and the reading-progress indicator to their account. All changes will now apply on every device the user signs in from. User profile now consistently reflects saved language, time zone, and color theme preference as well.
+
 ## [1.9.0] - 2026-08-15
 
 ### Added
@@ -157,7 +163,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.9.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.10.0...HEAD
+[1.10.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.9.0...v1.10.0
 [1.9.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.7.0...v1.8.0
 [1.7.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.6.0...v1.7.0

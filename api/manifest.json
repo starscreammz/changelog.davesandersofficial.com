@@ -836,8 +836,6 @@
     {
       "version": "1.9.0",
       "releasedAt": "2026-08-15T14:58:52.173Z",
-      "commitSha": "e150f69ee924facc3ef42607b396bb9c46f6b694",
-      "releaseCommitSha": "e150f69ee924facc3ef42607b396bb9c46f6b694",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -916,6 +914,37 @@
             }
           ],
           "commit": "c14d01272c90636644c3463fb680492f4a4de1d0",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.10.0",
+      "releasedAt": "2026-08-22T15:11:59.913Z",
+      "commitSha": "dedc91b064f863c444e07bb2cdb737d62e732868",
+      "releaseCommitSha": "dedc91b064f863c444e07bb2cdb737d62e732868",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "user-preferences-settings-sync",
+          "category": "feature",
+          "title": {
+            "en": "Web appearance and display preferences now sync across user devices",
+            "cs": "Nastavení vzhledu a zobrazení webu se nyní synchronizuje mezi zařízeními uživatele"
+          },
+          "body": {
+            "en": "User can now customize and save appearance preferences, including color theme, the scroll-to-top button, and\nthe reading-progress indicator to their account. All changes will now apply on every device the user signs in\nfrom. User profile now consistently reflects saved language, time zone, and color theme preference as well.",
+            "cs": "Uživatel si nyní může přizpůsobit nastavení vzhledu webu, včetně barevného motivu, tlačítka pro rychlý\nnávrat nahoru a ukazatele průběhu čtení (scrollování). Veškeré změny se nyní ukládají na úrovni\nuživatelského účtu a synchronizují se mezi všemi zařízeními, na kterých je uživatel přihlášen.\nUživatelský profil nyní také nese uložené předvolby preferovaného jazyka, časového pásma a barevného motivu."
+          },
+          "commit": "c4c834148df0b555ec57a3d546d00cc888a3772d",
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
