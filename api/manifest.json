@@ -925,8 +925,6 @@
     {
       "version": "1.10.0",
       "releasedAt": "2026-08-22T15:11:59.913Z",
-      "commitSha": "dedc91b064f863c444e07bb2cdb737d62e732868",
-      "releaseCommitSha": "dedc91b064f863c444e07bb2cdb737d62e732868",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -945,6 +943,55 @@
             "cs": "Uživatel si nyní může přizpůsobit nastavení vzhledu webu, včetně barevného motivu, tlačítka pro rychlý\nnávrat nahoru a ukazatele průběhu čtení (scrollování). Veškeré změny se nyní ukládají na úrovni\nuživatelského účtu a synchronizují se mezi všemi zařízeními, na kterých je uživatel přihlášen.\nUživatelský profil nyní také nese uložené předvolby preferovaného jazyka, časového pásma a barevného motivu."
           },
           "commit": "c4c834148df0b555ec57a3d546d00cc888a3772d",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.11.0",
+      "releasedAt": "2026-08-23T20:41:41.966Z",
+      "commitSha": "715cfad2c85fca0f73a060cdfea6e8a09dc55f41",
+      "releaseCommitSha": "715cfad2c85fca0f73a060cdfea6e8a09dc55f41",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "account-security-actions",
+          "category": "feature",
+          "title": {
+            "en": "Support for securing a user account",
+            "cs": "Podpora pro zabezpečení uživatelského účtu"
+          },
+          "body": {
+            "en": "You can now secure your account in one step. This action signs out every other device while keeping the one you're on, and lets you change your password at the same time. Administrators can secure another user's account the same way.",
+            "cs": "Nově můžete svůj účet zabezpečit jedním krokem. Akce umožňuje odhlásit všechna ostatní zařízení a ponechat jen to, na kterém jste právě přihlášeni. Zároveň si můžete změnit i heslo, i když jste přihlášeni. Administrátoři mohou stejným způsobem zabezpečit účet jiného uživatele."
+          },
+          "commit": "05365f89fd21d1566e4c51cd586b79a1a678e043",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "breached-password-and-privileged-2fa",
+          "category": "security",
+          "title": {
+            "en": "Breached-password screening and mandatory 2FA for privileged accounts",
+            "cs": "Kontrola prolomených hesel a povinné dvoufázové ověření pro privilegované účty"
+          },
+          "body": {
+            "en": "New and changed passwords are now checked against known data-breach databases and rejected if they've been compromised. Highly privileged accounts must set up two-factor authentication before they can sign in.",
+            "cs": "Nová i změněná hesla se nově porovnávají s databázemi známých úniků dat a v případě prolomeného hesla jsou zamítnuta. Vysoce privilegované účty si musí před přihlášením nastavit dvoufázové ověření."
+          },
+          "commit": "05365f89fd21d1566e4c51cd586b79a1a678e043",
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",

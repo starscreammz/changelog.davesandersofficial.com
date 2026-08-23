@@ -23,6 +23,16 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.11.0] - 2026-08-23
+
+### Added
+
+- **Support for securing a user account** — You can now secure your account in one step. This action signs out every other device while keeping the one you're on, and lets you change your password at the same time. Administrators can secure another user's account the same way.
+
+### Security
+
+- **Breached-password screening and mandatory 2FA for privileged accounts** — New and changed passwords are now checked against known data-breach databases and rejected if they've been compromised. Highly privileged accounts must set up two-factor authentication before they can sign in.
+
 ## [1.10.0] - 2026-08-22
 
 ### Added
@@ -163,7 +173,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.10.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.11.0...HEAD
+[1.11.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.10.0...v1.11.0
 [1.10.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.9.0...v1.10.0
 [1.9.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.7.0...v1.8.0
