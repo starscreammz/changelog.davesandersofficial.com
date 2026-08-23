@@ -954,8 +954,6 @@
     {
       "version": "1.11.0",
       "releasedAt": "2026-08-23T20:41:41.966Z",
-      "commitSha": "715cfad2c85fca0f73a060cdfea6e8a09dc55f41",
-      "releaseCommitSha": "715cfad2c85fca0f73a060cdfea6e8a09dc55f41",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -992,6 +990,37 @@
             "cs": "Nová i změněná hesla se nově porovnávají s databázemi známých úniků dat a v případě prolomeného hesla jsou zamítnuta. Vysoce privilegované účty si musí před přihlášením nastavit dvoufázové ověření."
           },
           "commit": "05365f89fd21d1566e4c51cd586b79a1a678e043",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.11.1",
+      "releasedAt": "2026-08-23T22:15:55.683Z",
+      "commitSha": "f81feef6f3873dc8c04059892a708c92ed4f35dd",
+      "releaseCommitSha": "f81feef6f3873dc8c04059892a708c92ed4f35dd",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "login-oauth-documented-success-responses",
+          "category": "fix",
+          "title": {
+            "en": "Complete success-response documentation for sign-in",
+            "cs": "Úplná dokumentace úspěšných odpovědí pro přihlášení"
+          },
+          "body": {
+            "en": "The login and OAuth sign-in endpoints now document every success response they can return. An authentication token pair, a two-factor challenge, or a 2FA-enrollment prompt, instead of only one single response.",
+            "cs": "Přihlašovací a OAuth koncové body nyní v dokumentaci API uvádějí všechny úspěšné odpovědi, které může požadavek obdržet. Pár autorizačních tokenů, výzvu k dvoufázovému ověření i výzvu k nastavení 2FA, namísto pouze jedné odpovědi."
+          },
+          "commit": "c26239b1e65aa60873eed1d1fb4553bad23df234",
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",

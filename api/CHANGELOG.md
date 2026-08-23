@@ -23,6 +23,12 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.11.1] - 2026-08-23
+
+### Fixed
+
+- **Complete success-response documentation for sign-in** — The login and OAuth sign-in endpoints now document every success response they can return. An authentication token pair, a two-factor challenge, or a 2FA-enrollment prompt, instead of only one single response.
+
 ## [1.11.0] - 2026-08-23
 
 ### Added
@@ -173,7 +179,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.11.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.11.1...HEAD
+[1.11.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.11.0...v1.11.1
 [1.11.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.10.0...v1.11.0
 [1.10.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.9.0...v1.10.0
 [1.9.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.8.0...v1.9.0
