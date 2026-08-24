@@ -23,6 +23,12 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.12.0] - 2026-08-24
+
+### Added
+
+- **Secure email address change support** — You can now securely change the email address associated with your account. The new address must first be confirmed via a link we send to it. We'll also notify your original address with the option to cancel the change — for instance if you didn't request it and someone may be impersonating you. Without your confirmation, the change won't take effect.
+
 ## [1.11.1] - 2026-08-23
 
 ### Fixed
@@ -179,7 +185,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.11.1...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.12.0...HEAD
+[1.12.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.11.1...v1.12.0
 [1.11.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.11.0...v1.11.1
 [1.11.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.10.0...v1.11.0
 [1.10.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.9.0...v1.10.0

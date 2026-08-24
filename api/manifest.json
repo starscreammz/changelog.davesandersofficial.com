@@ -1001,8 +1001,6 @@
     {
       "version": "1.11.1",
       "releasedAt": "2026-08-23T22:15:55.683Z",
-      "commitSha": "f81feef6f3873dc8c04059892a708c92ed4f35dd",
-      "releaseCommitSha": "f81feef6f3873dc8c04059892a708c92ed4f35dd",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -1021,6 +1019,37 @@
             "cs": "Přihlašovací a OAuth koncové body nyní v dokumentaci API uvádějí všechny úspěšné odpovědi, které může požadavek obdržet. Pár autorizačních tokenů, výzvu k dvoufázovému ověření i výzvu k nastavení 2FA, namísto pouze jedné odpovědi."
           },
           "commit": "c26239b1e65aa60873eed1d1fb4553bad23df234",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.12.0",
+      "releasedAt": "2026-08-24T19:16:25.077Z",
+      "commitSha": "ac0a2c1bc926287ef8a531861d9be2dea19e1a91",
+      "releaseCommitSha": "ac0a2c1bc926287ef8a531861d9be2dea19e1a91",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "entries": [
+        {
+          "slug": "authenticated-email-change",
+          "category": "feature",
+          "title": {
+            "en": "Secure email address change support",
+            "cs": "Podpora bezpečné změny e-mailové adresy"
+          },
+          "body": {
+            "en": "You can now securely change the email address associated with your account. The new address must first be confirmed via a link we send to it. We'll also notify your original address with the option to cancel the change — for instance if you didn't request it and someone may be impersonating you. Without your confirmation, the change won't take effect.",
+            "cs": "Nově si uživatel může bezpečně změnit e-mailovou adresu, přidruženou ke svému účtu. Novou adresu je nutné nejprve potvrdit\nodkazem, který vám na ni zašleme. Na původní e-mailovou adresu zároveň zašleme upozornění s možností změnu zrušit,\nnapříklad v případě, že změna není žádoucí a někdo by se za vás mohl vydávat. Bez potvrzení uživatele, ke změně nedojde."
+          },
+          "commit": "1a537a351513ed1537bcac0aa9c99a162124f574",
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
