@@ -17,6 +17,8 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 > | **Fixed** | Bug fixes |
 > | **Security** | Vulnerability fixes and hardening |
 >
+> A release may open with a **Summary** — a short plain-language overview — and, when relevant, a **Note** (ℹ️ info or ⚠️ warning), both shown above the grouped changes.
+>
 > **[Unreleased]** lists work merged to `main` that hasn't shipped in a tagged release yet.
 
 ## [Unreleased]
