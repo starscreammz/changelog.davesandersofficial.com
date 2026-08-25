@@ -25,6 +25,30 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [0.15.0] - 2026-08-25
+
+This release brings a massive visual overhaul. The whole site is being polished, with a consistent look and feel, smooth animations, gentle motion, and a clean "icy" style across buttons, menus, and navigation. The release also adds real conveniences like a full cookie-policy page and scroll preferences that follow you across devices. It's the first major step yet toward the full production release.
+
+### Added
+
+- **Cookie Policy page** — A clear, easy-to-read page showing exactly which cookies we use and why, all grouped by purpose and explained in simple language. Expand or collapse the menu with items using a single click.
+- **Know which section you are in as you read** — While you read a page, the footer gently highlights the section you're currently in, so you never lose your place.
+- **Scroll and reading indicators** — You can now enable the "scroll back to top" button and the reading-progress indicator bar, which keeps you informed on the scroll and reading status. In case you are signed in, your choices will be remembered and will carry over across all of your signed-in devices.
+- **Tidier hashtags on posts and reels** — Posts, photos, and reels now show clean, consistent hashtags, ready to become clickable once tag search arrives.
+- **A fresh new look across the site** — We gave the entire site a large visual makeover: buttons, menus, tooltips, and navigation now share one cohesive, modern style with subtle, satisfying motion. It's a big leap toward the finished, production-ready site.
+
+### Changed
+
+- **Clearer buttons and links** — Buttons and links give better feedback now. Keyboard users get a visible highlight, and anything you can't click clearly looks unavailable.
+- **Smarter, more consistent behaviour of links** — Every link now behaves the same way and clearly shows where you are on the site. Pages that aren't ready yet appear as "planned" instead of leading to a dead end.
+- **Crisper breadcrumbs** — The breadcrumb trail got the new icy styling, and its arrow edges are now smooth and sharp thanks to a rendering adjustment.
+- **Various wording touches** — A broad revision of tooltip and label texts across the site for better clarity.
+
+### Fixed
+
+- **Button for scrolling back to top respects your setting** — The "Back to top" button now stays completely hidden when you've turned it off.
+- **Disabled links no longer render as clickable** — Links that aren't available now show the correct "not allowed" cursor and clearly render as disabled.
+
 ## [0.13.1] - 2026-08-15
 
 ### Added
@@ -111,7 +135,8 @@ _Nothing yet._
 
 - **Official launch of the Changelog section** — A fully automated release pipeline with a window into GitHub. Entries now carry an author, notes, a publisher, and a general summary.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.13.1...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.15.0...HEAD
+[0.15.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.13.1...v0.15.0
 [0.13.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.12.0...v0.13.1
 [0.12.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.11.1...v0.12.0
 [0.11.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.10.1...v0.11.1

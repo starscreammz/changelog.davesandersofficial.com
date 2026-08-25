@@ -459,8 +459,6 @@
     {
       "version": "0.13.1",
       "releasedAt": "2026-08-15T19:07:17.070Z",
-      "commitSha": "47db1a039fc1d8253bf1cae13a85ccbb5a407981",
-      "releaseCommitSha": "47db1a039fc1d8253bf1cae13a85ccbb5a407981",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -479,6 +477,221 @@
             "cs": "Překlady na webu se nyní načítají z CDN sítě, s hloubkovou kontrolou\nintegrity každého balíčku a robustní ochranou proti regresi. Pokud\nzdroj není dostupný, použije se nejnovější lokální verze jako záložní\nvarianta. Tímto se zabrání stavu částečné nebo zastaralé jazykové verze."
           },
           "commit": "2df1adb75f0dfd843cb29e25b745b5a635c2a8fe",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.15.0",
+      "releasedAt": "2026-08-25T15:52:16.011Z",
+      "commitSha": "b801a6fef4f18410d8578f7f04c21864154b5dd5",
+      "releaseCommitSha": "b801a6fef4f18410d8578f7f04c21864154b5dd5",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "summary": {
+        "en": "This release brings a massive visual overhaul. The whole site is being polished, with a consistent look and feel, smooth animations, gentle motion, and a clean \"icy\" style across buttons, menus, and navigation. The release also adds real conveniences like a full cookie-policy page and scroll preferences that follow you across devices. It's the first major step yet toward the full production release.",
+        "cs": "Tato aktualizace přináší velkou vizuální změnu. Celý web dostává jednotný, uhlazený vzhled, plynulé animace, jemný pohyb a čistý „ledový\" styl napříč tlačítky, menu i navigací. Dále byly přidány praktické vychytávky, jako je kompletní stránka se zásadami cookies nebo nastavení posouvání, které vás sleduje napříč zařízeními. Jedná se tedy o první velký krok k plnému produkčnímu vydání."
+      },
+      "entries": [
+        {
+          "slug": "back-to-top-setting",
+          "category": "fix",
+          "title": {
+            "en": "Button for scrolling back to top respects your setting",
+            "cs": "Tlačítko pro návrat nahoru reaguje na vaše nastavení"
+          },
+          "body": {
+            "en": "The \"Back to top\" button now stays completely hidden when you've turned it off.",
+            "cs": "Tlačítko „Zpět nahoru\" nyní zůstane skryté, pokud ho zcela vypnete."
+          },
+          "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "clearer-buttons-links",
+          "category": "improvement",
+          "title": {
+            "en": "Clearer buttons and links",
+            "cs": "Přehlednější tlačítka a odkazy"
+          },
+          "body": {
+            "en": "Buttons and links give better feedback now. Keyboard users get a visible highlight, and anything you can't click clearly looks unavailable.",
+            "cs": "Tlačítka a odkazy nyní správně reagují na interakce. Při ovládání klávesnicí se zvýrazní a prvek, na který nelze kliknout, se vždy zobrazí jako nedostupný."
+          },
+          "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "consistent-links",
+          "category": "improvement",
+          "title": {
+            "en": "Smarter, more consistent behaviour of links",
+            "cs": "Chytřejší a jednotnější chování odkazů"
+          },
+          "body": {
+            "en": "Every link now behaves the same way and clearly shows where you are on the site. Pages that aren't ready yet appear as \"planned\" instead of leading to a dead end.",
+            "cs": "Každý odkaz se teď chová stejně a jasně ukazuje, kde na webu jste. Stránky, které ještě nejsou hotové, se zobrazí jako „plánováno\" místo toho, aby vedly do slepé uličky."
+          },
+          "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "cookie-policy-page",
+          "category": "feature",
+          "title": {
+            "en": "Cookie Policy page",
+            "cs": "Stránka se zásadami cookies"
+          },
+          "body": {
+            "en": "A clear, easy-to-read page showing exactly which cookies we use and why, all grouped by purpose and explained in simple language. Expand or collapse the menu with items using a single click.",
+            "cs": "Přehledná a strukturovaná stránka, která přesně vypisuje, jaké cookies používáme a za jakým účelem. Vše seřazeno dle účelu a vysvětleno srozumitelným jazykem. Nabídku s položkami nyní rozbalíte nebo sbalíte jedním kliknutím."
+          },
+          "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "crisper-breadcrumbs",
+          "category": "improvement",
+          "title": {
+            "en": "Crisper breadcrumbs",
+            "cs": "Ostřejší drobečková navigace"
+          },
+          "body": {
+            "en": "The breadcrumb trail got the new icy styling, and its arrow edges are now smooth and sharp thanks to a rendering adjustment.",
+            "cs": "Drobečková navigace dostala nový „ledový\" styl a hrany jejích šipek jsou teď vyhlazené díky změně ve způsobu vykreslování."
+          },
+          "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "disabled-links-cursor",
+          "category": "fix",
+          "title": {
+            "en": "Disabled links no longer render as clickable",
+            "cs": "Nedostupné odkazy se již nezobrazují jako dostupné"
+          },
+          "body": {
+            "en": "Links that aren't available now show the correct \"not allowed\" cursor and clearly render as disabled.",
+            "cs": "Nedostupné odkazy nyní využívají správný kurzor „nelze kliknout\" a jasně se zobrazují jako nedostupné."
+          },
+          "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "reading-section-position",
+          "category": "feature",
+          "title": {
+            "en": "Know which section you are in as you read",
+            "cs": "Vždy víte, v jaké sekci se právě nacházíte"
+          },
+          "body": {
+            "en": "While you read a page, the footer gently highlights the section you're currently in, so you never lose your place.",
+            "cs": "Při čtení stránky patička na webu jemně zvýrazní sekci, ve které se právě nacházíte, a proto nikdy neztratíte přehled."
+          },
+          "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "scroll-reading-indicators",
+          "category": "feature",
+          "title": {
+            "en": "Scroll and reading indicators",
+            "cs": "Ukazatele průběhu scrollování a čtení"
+          },
+          "body": {
+            "en": "You can now enable the \"scroll back to top\" button and the reading-progress indicator bar, which keeps you informed on the scroll and reading status. In case you are signed in, your choices will be remembered and will carry over across all of your signed-in devices.",
+            "cs": "Nově si můžete povolit tlačítko „zpět nahoru\" i lištu s ukazatelem průběhu čtení, který umožní uživateli zobrazit pozici „scrollování\" a čtení. V případě, že jste přihlášeni, vaše volby se uloží a budou synchronizovány mezi všemi zařízeními, na kterých jste aktivně přihlášeni."
+          },
+          "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "tidier-hashtags",
+          "category": "feature",
+          "title": {
+            "en": "Tidier hashtags on posts and reels",
+            "cs": "Uhlazenější hashtagy u příspěvků a reelů"
+          },
+          "body": {
+            "en": "Posts, photos, and reels now show clean, consistent hashtags, ready to become clickable once tag search arrives.",
+            "cs": "Příspěvky, fotky i reely teď zobrazují čistý a jednotný vzhled hashtagů, které se aktivují v momentě, kdy dojde ke spuštění vyhledávání."
+          },
+          "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "visual-overhaul",
+          "category": "feature",
+          "title": {
+            "en": "A fresh new look across the site",
+            "cs": "Zcela nový vzhled celého webu"
+          },
+          "body": {
+            "en": "We gave the entire site a large visual makeover: buttons, menus, tooltips, and navigation now share one cohesive, modern style with subtle, satisfying motion. It's a big leap toward the finished, production-ready site.",
+            "cs": "Celý web prošel velkou vizuální změnou: tlačítka, menu, popisky i navigace teď sdílejí jednotný, moderní styl s jemnými a vzhledově příjemnými animacemi. Jde o velký skok k hotové produkční verzi webu."
+          },
+          "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
+          "author": {
+            "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        },
+        {
+          "slug": "wording-touches",
+          "category": "improvement",
+          "title": {
+            "en": "Various wording touches",
+            "cs": "Různé úpravy textů"
+          },
+          "body": {
+            "en": "A broad revision of tooltip and label texts across the site for better clarity.",
+            "cs": "Rozsáhlá úprava textů nápověd a popisků na webu pro dosažení větší srozumitelnosti."
+          },
+          "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
