@@ -25,6 +25,14 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.13.0] - 2026-08-27
+
+This release adds a secondary email: a verified backup address that lets you get into your account if you lose access to your primary email. A password reset link can be sent to the secondary address the same way as to the primary.
+
+### Added
+
+- **Secondary email** — You can now register a secondary email address for account recovery. If you ever lose access to your primary inbox, a password reset link can be delivered there instead. This gives you a simple and safe way to regain access.
+
 ## [1.12.0] - 2026-08-24
 
 ### Added
@@ -187,7 +195,8 @@ _Nothing yet._
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.12.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.13.0...HEAD
+[1.13.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.12.0...v1.13.0
 [1.12.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.11.1...v1.12.0
 [1.11.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.11.0...v1.11.1
 [1.11.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.10.0...v1.11.0

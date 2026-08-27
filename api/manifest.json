@@ -1030,8 +1030,6 @@
     {
       "version": "1.12.0",
       "releasedAt": "2026-08-24T19:16:25.077Z",
-      "commitSha": "ac0a2c1bc926287ef8a531861d9be2dea19e1a91",
-      "releaseCommitSha": "ac0a2c1bc926287ef8a531861d9be2dea19e1a91",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -1052,6 +1050,41 @@
           "commit": "1a537a351513ed1537bcac0aa9c99a162124f574",
           "author": {
             "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz"
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.13.0",
+      "releasedAt": "2026-08-27T22:46:24.312Z",
+      "commitSha": "4a5e6fa168b8d0f7dfbf03657def01af36c7f21b",
+      "releaseCommitSha": "4a5e6fa168b8d0f7dfbf03657def01af36c7f21b",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+      },
+      "summary": {
+        "en": "This release adds a secondary email: a verified backup address that lets you get into your account if you lose access to your primary email. A password reset link can be sent to the secondary address the same way as to the primary.",
+        "cs": "Tato aktualizace přidává podporu pro registraci sekundární e-mailové adresy: ověřená záložní adresa vám umožní získat zpět přístup ke svému účtu v případě, že se nemůžete dostat ke své primární adrese. Odkaz pro obnovení hesla lze na sekundární adresu zaslat zcela stejným způsobem, jako na primární."
+      },
+      "entries": [
+        {
+          "slug": "recovery-email",
+          "category": "feature",
+          "title": {
+            "en": "Secondary email",
+            "cs": "Sekundární e-mail"
+          },
+          "body": {
+            "en": "You can now register a secondary email address for account recovery. If you ever lose access to your primary inbox, a password reset link can be delivered there instead. This gives you a simple and safe way to regain access.",
+            "cs": "Nyní si můžete přidat sekundární e-mail pro obnovení přístupu ke svému účtu. Pokud ztratíte přístup ke svému hlavnímu e-mailu, můžeme vám na sekundární adresu zaslat odkaz pro obnovení hesla. Máte tak v záloze jednoduchou a bezpečnou cestu, jak znovu získat přístup."
+          },
+          "commit": "d83688784c81e4087290460cdfb4401cfac3e2f3",
+          "author": {
+            "name": "David Sanders",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
             "profileUrl": "https://github.com/starscreammz"
           }
