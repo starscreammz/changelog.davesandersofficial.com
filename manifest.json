@@ -7,7 +7,9 @@
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
-        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher",
+        "provider": "github",
+        "providerUserId": "291628658"
       },
       "note": {
         "body": {
@@ -31,7 +33,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/StarScreammZ"
+            "profileUrl": "https://github.com/StarScreammZ",
+            "provider": "github",
+            "providerUserId": "29749232"
           },
           "commit": "2c4d41025b11a938296093378bbc29d460a79934"
         }
@@ -43,7 +47,9 @@
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
-        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher",
+        "provider": "github",
+        "providerUserId": "291628658"
       },
       "note": {
         "body": {
@@ -68,7 +74,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -86,7 +94,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -104,7 +114,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -122,7 +134,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -140,7 +154,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -158,7 +174,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -176,7 +194,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -194,7 +214,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         }
       ]
@@ -205,7 +227,9 @@
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
-        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher",
+        "provider": "github",
+        "providerUserId": "291628658"
       },
       "note": {
         "body": {
@@ -230,7 +254,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -248,7 +274,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -266,7 +294,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         }
       ]
@@ -277,7 +307,9 @@
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
-        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher",
+        "provider": "github",
+        "providerUserId": "291628658"
       },
       "entries": [
         {
@@ -303,7 +335,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -321,7 +355,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         }
       ]
@@ -332,7 +368,9 @@
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
-        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher",
+        "provider": "github",
+        "providerUserId": "291628658"
       },
       "entries": [
         {
@@ -350,7 +388,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -368,7 +408,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         }
       ]
@@ -379,7 +421,9 @@
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
-        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher",
+        "provider": "github",
+        "providerUserId": "291628658"
       },
       "entries": [
         {
@@ -397,7 +441,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -415,7 +461,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -433,7 +481,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -451,7 +501,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         }
       ]
@@ -462,7 +514,9 @@
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
-        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher",
+        "provider": "github",
+        "providerUserId": "291628658"
       },
       "entries": [
         {
@@ -480,7 +534,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         }
       ]
@@ -493,7 +549,9 @@
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
-        "profileUrl": "https://github.com/apps/dso-changelog-publisher"
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher",
+        "provider": "github",
+        "providerUserId": "291628658"
       },
       "summary": {
         "en": "This release brings a massive visual overhaul. The whole site is being polished, with a consistent look and feel, smooth animations, gentle motion, and a clean \"icy\" style across buttons, menus, and navigation. The release also adds real conveniences like a full cookie-policy page and scroll preferences that follow you across devices. It's the first major step yet toward the full production release.",
@@ -515,7 +573,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -533,7 +593,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -551,7 +613,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -569,7 +633,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -587,7 +653,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -605,7 +673,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -623,7 +693,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -641,7 +713,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -659,7 +733,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -677,7 +753,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         },
         {
@@ -695,7 +773,9 @@
           "author": {
             "name": "StarScreammZ",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
-            "profileUrl": "https://github.com/starscreammz"
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
           }
         }
       ]
