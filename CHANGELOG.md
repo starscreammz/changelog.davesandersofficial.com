@@ -25,6 +25,12 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [0.15.1] - 2026-09-28
+
+### Added
+
+- **Carousel controls** — Carousels now have a pause/play button, stop while you use the keyboard, when scrolled off-screen or when reduced motion is on, and respond to the arrow keys. A paused slide carries on where it stopped, and the dots are larger and easier to hit. Their behaviour can now be tuned without a redeploy. Buttons no longer stay highlighted after a tap on touch screens.
+
 ## [0.15.0] - 2026-08-25
 
 This release brings a massive visual overhaul. The whole site is being polished, with a consistent look and feel, smooth animations, gentle motion, and a clean "icy" style across buttons, menus, and navigation. The release also adds real conveniences like a full cookie-policy page and scroll preferences that follow you across devices. It's the first major step yet toward the full production release.
@@ -135,7 +141,8 @@ This release brings a massive visual overhaul. The whole site is being polished,
 
 - **Official launch of the Changelog section** — A fully automated release pipeline with a window into GitHub. Entries now carry an author, notes, a publisher, and a general summary.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.15.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.15.1...HEAD
+[0.15.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.15.0...v0.15.1
 [0.15.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.13.1...v0.15.0
 [0.13.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.12.0...v0.13.1
 [0.12.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v0.11.1...v0.12.0

@@ -544,8 +544,6 @@
     {
       "version": "0.15.0",
       "releasedAt": "2026-08-25T15:52:16.011Z",
-      "commitSha": "b801a6fef4f18410d8578f7f04c21864154b5dd5",
-      "releaseCommitSha": "b801a6fef4f18410d8578f7f04c21864154b5dd5",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -772,6 +770,41 @@
           "commit": "052cc981415963e7957db89e5ad08fcb680db54d",
           "author": {
             "name": "StarScreammZ",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.15.1",
+      "releasedAt": "2026-09-28T14:00:09.747Z",
+      "commitSha": "4dea05d1936d0ba1f016bfb374ec9c8da989fde2",
+      "releaseCommitSha": "4dea05d1936d0ba1f016bfb374ec9c8da989fde2",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher",
+        "provider": "github",
+        "providerUserId": "291628658"
+      },
+      "entries": [
+        {
+          "slug": "carousel-controls",
+          "category": "feature",
+          "title": {
+            "en": "Carousel controls",
+            "cs": "Ovládání karuselů"
+          },
+          "body": {
+            "en": "Carousels now have a pause/play button, stop while you use the keyboard, when scrolled off-screen or when reduced motion is on, and respond to the arrow keys. A paused slide carries on where it stopped, and the dots are larger and easier to hit. Their behaviour can now be tuned without a redeploy. Buttons no longer stay highlighted after a tap on touch screens.",
+            "cs": "Karusely mají nové tlačítko pro pozastavení a spuštění, zastaví se při ovládání klávesnicí, mimo obrazovku a při zapnutém omezení pohybu a reagují na šipky. Pozastavený snímek pokračuje tam, kde se zastavil, a tečky jsou větší a snáz se na ně trefíte. Jejich chování lze nově ladit bez nového nasazení. Tlačítka po klepnutí na dotykové obrazovce už nezůstávají zvýrazněná."
+          },
+          "commit": "6116217800fb9d3deb2b5d910bcd13899183dc28",
+          "author": {
+            "name": "David Sanders",
             "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
             "profileUrl": "https://github.com/starscreammz",
             "provider": "github",
