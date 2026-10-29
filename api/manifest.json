@@ -1179,8 +1179,6 @@
     {
       "version": "1.13.0",
       "releasedAt": "2026-08-27T22:46:24.312Z",
-      "commitSha": "4a5e6fa168b8d0f7dfbf03657def01af36c7f21b",
-      "releaseCommitSha": "4a5e6fa168b8d0f7dfbf03657def01af36c7f21b",
       "publisher": {
         "name": "dso-changelog-publisher",
         "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
@@ -1214,6 +1212,13 @@
           }
         }
       ]
+    },
+    {
+      "version": "1.15.0",
+      "releasedAt": "2026-10-29T16:39:27.176Z",
+      "commitSha": "59e39ad036adf70dc3f62a5a51e3cac4b784664b",
+      "releaseCommitSha": "59e39ad036adf70dc3f62a5a51e3cac4b784664b",
+      "entries": []
     }
   ]
 }
