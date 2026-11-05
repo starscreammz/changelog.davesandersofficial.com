@@ -1221,8 +1221,13 @@
     {
       "version": "1.16.0",
       "releasedAt": "2026-10-30T18:41:36.839Z",
-      "commitSha": "46a345683d09c1507a31b45f5bab821ffa4c9ffa",
-      "releaseCommitSha": "46a345683d09c1507a31b45f5bab821ffa4c9ffa",
+      "entries": []
+    },
+    {
+      "version": "1.17.0",
+      "releasedAt": "2026-11-05T17:26:10.986Z",
+      "commitSha": "e94cf2ab88cf87626a59bb6aff0f3a318246ba93",
+      "releaseCommitSha": "e94cf2ab88cf87626a59bb6aff0f3a318246ba93",
       "entries": []
     }
   ]
