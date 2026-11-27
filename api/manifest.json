@@ -1241,9 +1241,46 @@
     {
       "version": "1.18.2",
       "releasedAt": "2026-11-06T18:39:49.981Z",
-      "commitSha": "c216613541a07a5f909c7bff4adb14fe55f17b1c",
-      "releaseCommitSha": "c216613541a07a5f909c7bff4adb14fe55f17b1c",
       "entries": []
+    },
+    {
+      "version": "1.20.0",
+      "releasedAt": "2026-11-27T14:09:40.192Z",
+      "commitSha": "c9972f28ce57ba61d4be8e6cb166aad10d96e47b",
+      "releaseCommitSha": "c9972f28ce57ba61d4be8e6cb166aad10d96e47b",
+      "publisher": {
+        "name": "dso-changelog-publisher",
+        "avatarUrl": "https://avatars.githubusercontent.com/in/3992450?v=4",
+        "profileUrl": "https://github.com/apps/dso-changelog-publisher",
+        "provider": "github",
+        "providerUserId": "291628658"
+      },
+      "summary": {
+        "en": "This release completes a broad set of improvements to user account security: longer passwords checked against data breaches, safer links in emails, limits on unconfirmed accounts, separate attempt limits for each way of proving it is you, stricter account recovery and a new way of signing access tokens.",
+        "cs": "Toto vydání uzavírá rozsáhlý set vylepšení zabezpečení uživatelských účtů: delší hesla kontrolovaná proti únikům dat, bezpečnější odkazy v e-mailech, omezení nepotvrzených účtů, samostatné limity pokusů pro každý způsob ověření, přísnější obnovení účtu a nové podepisování přístupových tokenů."
+      },
+      "entries": [
+        {
+          "slug": "auth-arc-2",
+          "category": "security",
+          "title": {
+            "en": "Stronger account security",
+            "cs": "Silnější zabezpečení účtu"
+          },
+          "body": {
+            "en": "Signing in and the protection of user accounts have been improved in line with current security standards. Passwords must meet stricter requirements and are checked against known data breaches (when set and at every sign-in), sessions have a fixed maximum lifetime, and you can sign out any signed-in device. Links in security emails no longer contain any security details in the web address. A new account stays limited until you confirm your email, and each way of proving it is you (password, authenticator code, recovery code) has its own attempt limit that tightens with each failed attempt. Changes to sensitive account details require you to confirm again. The changes also cover two-factor details and recovery codes, which are now stored in a protected form. Recovering an account when you have lost both your password and your email requires one or more security details you set up in advance. Users will also be notified in advance when our terms change. For developers: sign-in can now ask the user to accept the terms, and some account changes can end in a conflict that the user will be asked to resolve.",
+            "cs": "Přihlašování a ochrana uživatelských účtů byly vylepšeny podle současných bezpečnostních standardů. Hesla podléhají přísnějším kritériím a kontrolují se proti známým únikům dat (při nastavení a při každém přihlášení), relace mají pevně stanovenou nejdelší dobu platnosti a kterékoli přihlášené zařízení můžete odhlásit. Odkazy v bezpečnostních e-mailech neobsahují žádné bezpečnostní údaje jako součást adresy. Nový uživatelský účet zůstává omezený, dokud nepotvrdíte e-mail, a každý způsob ověření (heslo, kód z ověřovací aplikace, záložní kód) má vlastní limit pokusů, který se s dalším neúspěšným pokusem zpřísňuje. Změny citlivých údajů uživatele vyžadují nové potvrzení. Změny se dále týkají údajů dvoufázového ověření a záložních kódů, které jsou uloženy v chráněné podobě. Obnovení účtu, ke kterému uživatel ztratil heslo i e-mail, vyžaduje doložení jednoho nebo více bezpečnostních údajů, které byly nastaveny předem. Uživatelé zároveň budou nově o změně podmínek předem upozorněni. Pro vývojáře: proces přihlášení může nově vyzvat uživatele krokem k přijetí podmínek, nebo v případě některých změn na účtu může dojít ke konfliktu, k jehož vyřešení bude uživatel vyzván."
+          },
+          "commit": "b07a3dd358be8616965b182403019a75fc334e98",
+          "author": {
+            "name": "David Sanders",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/29749232?v=4",
+            "profileUrl": "https://github.com/starscreammz",
+            "provider": "github",
+            "providerUserId": "29749232"
+          }
+        }
+      ]
     }
   ]
 }

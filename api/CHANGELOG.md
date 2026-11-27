@@ -25,6 +25,14 @@ All notable changes to **davesandersofficial.com** are documented in this file.
 
 _Nothing yet._
 
+## [1.20.0] - 2026-11-27
+
+This release completes a broad set of improvements to user account security: longer passwords checked against data breaches, safer links in emails, limits on unconfirmed accounts, separate attempt limits for each way of proving it is you, stricter account recovery and a new way of signing access tokens.
+
+### Security
+
+- **Stronger account security** — Signing in and the protection of user accounts have been improved in line with current security standards. Passwords must meet stricter requirements and are checked against known data breaches (when set and at every sign-in), sessions have a fixed maximum lifetime, and you can sign out any signed-in device. Links in security emails no longer contain any security details in the web address. A new account stays limited until you confirm your email, and each way of proving it is you (password, authenticator code, recovery code) has its own attempt limit that tightens with each failed attempt. Changes to sensitive account details require you to confirm again. The changes also cover two-factor details and recovery codes, which are now stored in a protected form. Recovering an account when you have lost both your password and your email requires one or more security details you set up in advance. Users will also be notified in advance when our terms change. For developers: sign-in can now ask the user to accept the terms, and some account changes can end in a conflict that the user will be asked to resolve.
+
 ## [1.13.0] - 2026-08-27
 
 This release adds a secondary email: a verified backup address that lets you get into your account if you lose access to your primary email. A password reset link can be sent to the secondary address the same way as to the primary.
@@ -195,7 +203,8 @@ This release adds a secondary email: a verified backup address that lets you get
 
 - **API added to changelog** — The first stable release of the official API, which is the core for the system infrastructure, is now part of the changelog pipeline.
 
-[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.13.0...HEAD
+[Unreleased]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.20.0...HEAD
+[1.20.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.13.0...v1.20.0
 [1.13.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.12.0...v1.13.0
 [1.12.0]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.11.1...v1.12.0
 [1.11.1]: https://github.com/StarScreammZ/changelog.davesandersofficial.com/compare/v1.11.0...v1.11.1
